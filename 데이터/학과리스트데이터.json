@@ -1,0 +1,2512 @@
+[
+    {
+        "lClass": "교육계열",
+        "mClass": "가정교육과",
+        "majorSeq": "10006"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "가족복지과",
+        "majorSeq": "8"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "간호과",
+        "majorSeq": "9"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "간호학과",
+        "majorSeq": "10"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "건강관리과",
+        "majorSeq": "12"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "건강관리학과",
+        "majorSeq": "11"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "건설공학교육과",
+        "majorSeq": "21002"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "건설정보과",
+        "majorSeq": "16"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "건축공학과",
+        "majorSeq": "17"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "건축과",
+        "majorSeq": "18"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "건축설비과",
+        "majorSeq": "21003"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "건축학과",
+        "majorSeq": "20"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "게임공학과",
+        "majorSeq": "21"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "게임콘텐츠과",
+        "majorSeq": "568"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "경영정보과",
+        "majorSeq": "22"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "경영정보학과",
+        "majorSeq": "10139"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "경영학과",
+        "majorSeq": "23"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "경영회계정보과",
+        "majorSeq": "24"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "경제학과",
+        "majorSeq": "25"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "경찰행정과",
+        "majorSeq": "26"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "경찰행정학과",
+        "majorSeq": "27"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "경호스포츠과",
+        "majorSeq": "28"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "경호학과",
+        "majorSeq": "10041"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "고고학과",
+        "majorSeq": "29"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "고분자공학과",
+        "majorSeq": "30"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "공간연출과",
+        "majorSeq": "21004"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "공업디자인과",
+        "majorSeq": "33"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "공업디자인학과",
+        "majorSeq": "34"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "공업화학과",
+        "majorSeq": "35"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "공연예술과",
+        "majorSeq": "37"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "공예과",
+        "majorSeq": "38"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "공예디자인학과",
+        "majorSeq": "39"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "공예학과",
+        "majorSeq": "41"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "과학교육과",
+        "majorSeq": "44"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "관광경영과",
+        "majorSeq": "45"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "관광경영학과",
+        "majorSeq": "46"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "관광통역과",
+        "majorSeq": "48"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "관현악과",
+        "majorSeq": "49"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "광고기획과",
+        "majorSeq": "50"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "광고디자인과",
+        "majorSeq": "51"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "광고디자인학과",
+        "majorSeq": "10140"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "광고홍보학과",
+        "majorSeq": "54"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "광학공학과",
+        "majorSeq": "55"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "교양경상학부",
+        "majorSeq": "10141"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "교양공학부",
+        "majorSeq": "10142"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "교양과",
+        "majorSeq": "56"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "교양사회과학부",
+        "majorSeq": "10143"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "교양생활과학부",
+        "majorSeq": "10144"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "교양인문학부",
+        "majorSeq": "10145"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "교양자연과학부",
+        "majorSeq": "10146"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "교육공학과",
+        "majorSeq": "57"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "교육학과",
+        "majorSeq": "59"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "교통공학과",
+        "majorSeq": "61"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "국방기술과",
+        "majorSeq": "10147"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "국방기술학과",
+        "majorSeq": "10038"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "국악학과",
+        "majorSeq": "67"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "국어교육과",
+        "majorSeq": "68"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "국어국문학과",
+        "majorSeq": "69"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "국제경영과",
+        "majorSeq": "10148"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "국제관계학과",
+        "majorSeq": "10007"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "국제문화정보학과",
+        "majorSeq": "74"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "국제법무학과",
+        "majorSeq": "75"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "국제지역학과",
+        "majorSeq": "21005"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "국제통상학과",
+        "majorSeq": "70"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "국제학부",
+        "majorSeq": "373"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "군사학과",
+        "majorSeq": "10026"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "그래픽디자인과",
+        "majorSeq": "386"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "금속공예과",
+        "majorSeq": "77"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "금속공예학과",
+        "majorSeq": "78"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "금속공학과",
+        "majorSeq": "79"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "금융경영과",
+        "majorSeq": "82"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "금융보험학과",
+        "majorSeq": "83"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "금형설계과",
+        "majorSeq": "85"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "기계ㆍ재료공학교육과",
+        "majorSeq": "21006"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "기계공학과",
+        "majorSeq": "86"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "기계과",
+        "majorSeq": "87"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "기계설계공학과",
+        "majorSeq": "88"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "기계설계과",
+        "majorSeq": "89"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "기독교학과",
+        "majorSeq": "93"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "기술교육과",
+        "majorSeq": "32"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "기악과",
+        "majorSeq": "94"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "기타아시아어학과",
+        "majorSeq": "127"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "기타유럽어학과",
+        "majorSeq": "389"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "나노공학과",
+        "majorSeq": "96"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "냉동공조공학과",
+        "majorSeq": "10049"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "노인보건복지과",
+        "majorSeq": "102"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "노인복지학과",
+        "majorSeq": "103"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "농공학과",
+        "majorSeq": "104"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "농수산과",
+        "majorSeq": "106"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "농업경제학과",
+        "majorSeq": "107"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "농업교육과",
+        "majorSeq": "108"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "대기과학과",
+        "majorSeq": "111"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "댄스스포츠과",
+        "majorSeq": "114"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "도시건설과",
+        "majorSeq": "13"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "도시계획학과",
+        "majorSeq": "117"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "도시공학과",
+        "majorSeq": "118"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "도자기공예과",
+        "majorSeq": "120"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "도자기공예학과",
+        "majorSeq": "121"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "독어독문학과",
+        "majorSeq": "122"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "독일어교육과",
+        "majorSeq": "123"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "독일학과",
+        "majorSeq": "124"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "동물자원학과",
+        "majorSeq": "126"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "동양화과",
+        "majorSeq": "128"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "디자인학과",
+        "majorSeq": "10149"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "디지털디자인과",
+        "majorSeq": "574"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "디지털디자인학과",
+        "majorSeq": "10150"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "디지털미디어과",
+        "majorSeq": "471"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "디지털콘텐츠학과",
+        "majorSeq": "532"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "러시아어문학과",
+        "majorSeq": "132"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "러시아학과",
+        "majorSeq": "134"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "레저스포츠과",
+        "majorSeq": "135"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "레저스포츠학과",
+        "majorSeq": "10020"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "레크리에이션과",
+        "majorSeq": "140"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "로봇공학과",
+        "majorSeq": "10116"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "마케팅경영과",
+        "majorSeq": "143"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "만화애니메이션학과",
+        "majorSeq": "144"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "만화창작과",
+        "majorSeq": "10008"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "말특수동물학과",
+        "majorSeq": "10120"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "멀티미디어과",
+        "majorSeq": "148"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "멀티미디어학과",
+        "majorSeq": "149"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "메이크업아티스트과",
+        "majorSeq": "150"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "메카트로닉스공학과",
+        "majorSeq": "151"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "메카트로닉스과",
+        "majorSeq": "152"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "모델과",
+        "majorSeq": "153"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "모바일시스템공학과",
+        "majorSeq": "10118"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "목조형가구학과",
+        "majorSeq": "155"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "무도과",
+        "majorSeq": "10152"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "무도학과",
+        "majorSeq": "158"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "무역학과",
+        "majorSeq": "72"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "무용과",
+        "majorSeq": "160"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "무용학과",
+        "majorSeq": "162"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "무인항공드론과",
+        "majorSeq": "21007"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "무인항공학과",
+        "majorSeq": "21008"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "문예창작과",
+        "majorSeq": "163"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "문예창작학과",
+        "majorSeq": "164"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "문헌정보과",
+        "majorSeq": "165"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "문헌정보학과",
+        "majorSeq": "166"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "문화관광과",
+        "majorSeq": "167"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "문화인류학과",
+        "majorSeq": "424"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "문화재과",
+        "majorSeq": "169"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "문화재보존학과",
+        "majorSeq": "10030"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "문화콘텐츠학과",
+        "majorSeq": "10031"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "물류시스템공학과",
+        "majorSeq": "172"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "물류학과",
+        "majorSeq": "21009"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "물리교육과",
+        "majorSeq": "174"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "물리치료과",
+        "majorSeq": "175"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "물리치료학과",
+        "majorSeq": "176"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "물리학과",
+        "majorSeq": "177"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "뮤지컬과",
+        "majorSeq": "178"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "미국학과",
+        "majorSeq": "179"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "미디어영상학과",
+        "majorSeq": "360"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "미디어출판과",
+        "majorSeq": "558"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "미디어학과",
+        "majorSeq": "181"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "미생물학과",
+        "majorSeq": "21010"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "미술교육과",
+        "majorSeq": "183"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "미술학과",
+        "majorSeq": "184"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "미용과",
+        "majorSeq": "186"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "바이오동물학과",
+        "majorSeq": "449"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "바이오생명정보과",
+        "majorSeq": "190"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "반도체과",
+        "majorSeq": "10153"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "반도체학과",
+        "majorSeq": "195"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "방사선과",
+        "majorSeq": "196"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "방사선학과",
+        "majorSeq": "10012"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "방송연예과",
+        "majorSeq": "354"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "방송영상과",
+        "majorSeq": "199"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "방송영상미디어과",
+        "majorSeq": "21011"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "방송제작과",
+        "majorSeq": "200"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "법률과",
+        "majorSeq": "202"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "법학과",
+        "majorSeq": "203"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "벤처창업학과",
+        "majorSeq": "208"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "보건관리학과",
+        "majorSeq": "210"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "보건행정과",
+        "majorSeq": "213"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "보건행정학과",
+        "majorSeq": "214"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "보건환경과",
+        "majorSeq": "215"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "보석감정과",
+        "majorSeq": "216"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "부동산과",
+        "majorSeq": "220"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "부동산학과",
+        "majorSeq": "221"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "부사관과",
+        "majorSeq": "423"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "북한학과",
+        "majorSeq": "223"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "불교학과",
+        "majorSeq": "224"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "불어교육과",
+        "majorSeq": "225"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "불어불문학과",
+        "majorSeq": "226"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "뷰티미용학과",
+        "majorSeq": "10040"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "비서행정과",
+        "majorSeq": "227"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "비서행정학과",
+        "majorSeq": "228"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "사이버국방학과",
+        "majorSeq": "10119"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "사진과",
+        "majorSeq": "232"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "사진영상학과",
+        "majorSeq": "234"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "사학과",
+        "majorSeq": "236"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "사회교육과",
+        "majorSeq": "21012"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "사회복지과",
+        "majorSeq": "239"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "사회복지상담과",
+        "majorSeq": "257"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "사회복지학과",
+        "majorSeq": "240"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "사회체육과",
+        "majorSeq": "241"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "사회체육학과",
+        "majorSeq": "242"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "사회학과",
+        "majorSeq": "243"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "산림자원학과",
+        "majorSeq": "245"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "산업경영과",
+        "majorSeq": "246"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "산업경영학과",
+        "majorSeq": "247"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "산업공학과",
+        "majorSeq": "21027"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "산업공학과",
+        "majorSeq": "250"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "산업디자인과",
+        "majorSeq": "252"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "산업디자인학과",
+        "majorSeq": "253"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "산업설비자동화과",
+        "majorSeq": "10050"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "산업안전과",
+        "majorSeq": "255"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "산업잠수과",
+        "majorSeq": "10051"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "생명공학과",
+        "majorSeq": "260"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "생명과학과",
+        "majorSeq": "261"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "생물교육과",
+        "majorSeq": "263"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "생물산업기계공학과",
+        "majorSeq": "10048"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "생물학과",
+        "majorSeq": "265"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "생화학과",
+        "majorSeq": "267"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "생활문화과",
+        "majorSeq": "21013"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "서양화과",
+        "majorSeq": "272"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "선교과",
+        "majorSeq": "10005"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "선교학과",
+        "majorSeq": "276"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "섬유공학과",
+        "majorSeq": "279"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "섬유디자인과",
+        "majorSeq": "281"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "섬유디자인학과",
+        "majorSeq": "282"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "성악과",
+        "majorSeq": "283"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "세라믹공학과",
+        "majorSeq": "285"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "세무학과",
+        "majorSeq": "286"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "세무회계과",
+        "majorSeq": "287"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "세무회계학과",
+        "majorSeq": "10154"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "소방방재학과",
+        "majorSeq": "10015"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "소방안전관리과",
+        "majorSeq": "288"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "소프트웨어공학과",
+        "majorSeq": "290"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "수산학과",
+        "majorSeq": "21014"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "수의학과",
+        "majorSeq": "296"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "수학과",
+        "majorSeq": "298"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "수학교육과",
+        "majorSeq": "299"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "수해양산업교육과",
+        "majorSeq": "10033"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "순수미술과",
+        "majorSeq": "21015"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "스마트정보과",
+        "majorSeq": "489"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "스마트폰과",
+        "majorSeq": "10019"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "스토리텔링학과",
+        "majorSeq": "10115"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "스페인어학과",
+        "majorSeq": "303"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "스포츠건강관리학과",
+        "majorSeq": "306"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "스포츠마케팅학과",
+        "majorSeq": "304"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "스포츠재활과",
+        "majorSeq": "10027"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "스포츠지도과",
+        "majorSeq": "10039"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "스포츠지도학과",
+        "majorSeq": "307"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "시각디자인과",
+        "majorSeq": "308"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "시각디자인학과",
+        "majorSeq": "309"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "시스템경영공학과",
+        "majorSeq": "310"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "시스템공학과",
+        "majorSeq": "311"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "식량자원학과",
+        "majorSeq": "21016"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "식물자원학과",
+        "majorSeq": "450"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "식품가공과",
+        "majorSeq": "313"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "식품공학과",
+        "majorSeq": "314"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "식품영양과",
+        "majorSeq": "317"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "식품영양학과",
+        "majorSeq": "318"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "식품자원경제학과",
+        "majorSeq": "21017"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "식품조리과",
+        "majorSeq": "320"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "신문방송학과",
+        "majorSeq": "322"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "신소재공학과",
+        "majorSeq": "324"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "신소재응용과",
+        "majorSeq": "325"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "신재생에너지과",
+        "majorSeq": "10017"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "신학과",
+        "majorSeq": "326"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "실내디자인과",
+        "majorSeq": "10018"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "실내디자인학과",
+        "majorSeq": "10024"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "실용미술과",
+        "majorSeq": "509"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "실용음악과",
+        "majorSeq": "113"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "실용음악학과",
+        "majorSeq": "329"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "심리학과",
+        "majorSeq": "330"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "아동가족학과",
+        "majorSeq": "7"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "아동교육과",
+        "majorSeq": "331"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "아동복지과",
+        "majorSeq": "332"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "아동복지학과",
+        "majorSeq": "333"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "아동학과",
+        "majorSeq": "334"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "아프리카어과",
+        "majorSeq": "336"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "안경광학과",
+        "majorSeq": "337"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "안전공학과",
+        "majorSeq": "338"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "애니메이션과",
+        "majorSeq": "339"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "애완동물과",
+        "majorSeq": "340"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "약재자원과",
+        "majorSeq": "10009"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "약학부",
+        "majorSeq": "341"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "언론홍보학과",
+        "majorSeq": "344"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "언어과학과",
+        "majorSeq": "345"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "언어재활과",
+        "majorSeq": "10016"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "언어치료학과",
+        "majorSeq": "346"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "에너지자원공학과",
+        "majorSeq": "448"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "역사교육과",
+        "majorSeq": "350"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "연극영화과",
+        "majorSeq": "351"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "연극영화학과",
+        "majorSeq": "352"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "연예매니지먼트과",
+        "majorSeq": "168"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "영상제작과",
+        "majorSeq": "362"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "영상콘텐츠과",
+        "majorSeq": "361"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "영어과",
+        "majorSeq": "364"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "영어교육과",
+        "majorSeq": "365"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "영어영문학과",
+        "majorSeq": "366"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "영어학과",
+        "majorSeq": "367"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "영화과",
+        "majorSeq": "368"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "예술치료과",
+        "majorSeq": "10046"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "예술치료학과",
+        "majorSeq": "10045"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "예술학과",
+        "majorSeq": "369"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "외국어학과",
+        "majorSeq": "10047"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "외식산업과",
+        "majorSeq": "375"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "외식산업학과",
+        "majorSeq": "376"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "외식조리과",
+        "majorSeq": "377"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "우주과학과",
+        "majorSeq": "380"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "원예과",
+        "majorSeq": "382"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "원예학과",
+        "majorSeq": "383"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "원자력공학과",
+        "majorSeq": "384"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "유럽ㆍ기타어과",
+        "majorSeq": "131"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "유아교육과",
+        "majorSeq": "390"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "유아교육학과",
+        "majorSeq": "391"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "유아특수재활과",
+        "majorSeq": "10032"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "유전공학과",
+        "majorSeq": "392"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "유통경영과",
+        "majorSeq": "393"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "유통물류과",
+        "majorSeq": "21018"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "유통학과",
+        "majorSeq": "394"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "윤리교육과",
+        "majorSeq": "63"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "윤리학과",
+        "majorSeq": "64"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "음악과",
+        "majorSeq": "395"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "음악교육과",
+        "majorSeq": "10022"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "음악학과",
+        "majorSeq": "396"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "음향제작과",
+        "majorSeq": "398"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "응급구조과",
+        "majorSeq": "399"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "응급구조학과",
+        "majorSeq": "10014"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "응용미술학과",
+        "majorSeq": "21019"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "응용소프트웨어공학과",
+        "majorSeq": "10117"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "의료경영학과",
+        "majorSeq": "21020"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "의료보장구과",
+        "majorSeq": "402"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "의료정보공학과",
+        "majorSeq": "404"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "의료정보시스템과",
+        "majorSeq": "405"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "의류ㆍ의상학과",
+        "majorSeq": "407"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "의무행정과",
+        "majorSeq": "408"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "의예과",
+        "majorSeq": "413"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "의용공학과",
+        "majorSeq": "414"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "이벤트연출과",
+        "majorSeq": "418"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "인터넷정보과",
+        "majorSeq": "10028"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "인터넷정보학과",
+        "majorSeq": "486"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "일반사회교육과",
+        "majorSeq": "431"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "일본어과",
+        "majorSeq": "432"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "일본학과",
+        "majorSeq": "434"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "일어교육과",
+        "majorSeq": "10023"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "일어일문학과",
+        "majorSeq": "436"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "임산공학과",
+        "majorSeq": "437"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "임상병리과",
+        "majorSeq": "439"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "임상병리학과",
+        "majorSeq": "440"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "자동차공학과",
+        "majorSeq": "442"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "자동차과",
+        "majorSeq": "443"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "자동차정비과",
+        "majorSeq": "445"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "자율전공학부",
+        "majorSeq": "451"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "작곡과",
+        "majorSeq": "452"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "작업치료과",
+        "majorSeq": "453"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "작업치료학과",
+        "majorSeq": "10021"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "장례지도과",
+        "majorSeq": "454"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "재료공학과",
+        "majorSeq": "456"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "재료과",
+        "majorSeq": "457"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "재활학과",
+        "majorSeq": "458"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "전기ㆍ전자ㆍ통신공학교육과",
+        "majorSeq": "460"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "전기공학과",
+        "majorSeq": "459"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "전기과",
+        "majorSeq": "461"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "전기자동화과",
+        "majorSeq": "580"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "전기전자공학과",
+        "majorSeq": "463"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "전기전자과",
+        "majorSeq": "464"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "전기제어공학과",
+        "majorSeq": "465"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "전자공학과",
+        "majorSeq": "469"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "전자과",
+        "majorSeq": "470"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "전통조리과",
+        "majorSeq": "479"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "정밀화학과",
+        "majorSeq": "484"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "정보보호학과",
+        "majorSeq": "488"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "정보통신공학과",
+        "majorSeq": "490"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "정보통신과",
+        "majorSeq": "491"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "정치외교학과",
+        "majorSeq": "492"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "제과제빵과",
+        "majorSeq": "493"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "제약공학과",
+        "majorSeq": "494"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "제어계측공학과",
+        "majorSeq": "495"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "제어계측과",
+        "majorSeq": "496"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "제지공학과",
+        "majorSeq": "498"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "제철금속과",
+        "majorSeq": "499"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "제품디자인과",
+        "majorSeq": "500"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "조경과",
+        "majorSeq": "502"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "조경학과",
+        "majorSeq": "503"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "조리과학과",
+        "majorSeq": "504"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "조선공학과",
+        "majorSeq": "505"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "조선과",
+        "majorSeq": "10037"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "조소학과",
+        "majorSeq": "507"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "조형과",
+        "majorSeq": "21021"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "조형디자인학과",
+        "majorSeq": "508"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "종교교육과",
+        "majorSeq": "510"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "종교학과",
+        "majorSeq": "511"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "주얼리디자인과",
+        "majorSeq": "598"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "중국비즈니스과",
+        "majorSeq": "10035"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "중국어과",
+        "majorSeq": "514"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "중국학과",
+        "majorSeq": "516"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "중어중문학과",
+        "majorSeq": "520"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "지구과학교육과",
+        "majorSeq": "522"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "지구정보공학과",
+        "majorSeq": "524"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "지구해양과학과",
+        "majorSeq": "525"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "지구환경과학과",
+        "majorSeq": "523"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "지리교육과",
+        "majorSeq": "526"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "지리학과",
+        "majorSeq": "529"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "지방행정과",
+        "majorSeq": "531"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "지역개발학과",
+        "majorSeq": "533"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "지적과",
+        "majorSeq": "535"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "지적학과",
+        "majorSeq": "536"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "지질학과",
+        "majorSeq": "537"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "창업경영과",
+        "majorSeq": "540"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "천문학과",
+        "majorSeq": "541"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "철도경영과",
+        "majorSeq": "542"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "철도교통과",
+        "majorSeq": "547"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "철도운전과",
+        "majorSeq": "545"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "철도전기제어과",
+        "majorSeq": "546"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "철도토목과",
+        "majorSeq": "543"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "철학과",
+        "majorSeq": "548"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "청소년복지과",
+        "majorSeq": "549"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "청소년지도학과",
+        "majorSeq": "550"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "체육교육과",
+        "majorSeq": "551"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "체육학과",
+        "majorSeq": "552"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "초등교육과",
+        "majorSeq": "554"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "축산과",
+        "majorSeq": "556"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "축산학과",
+        "majorSeq": "557"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "측지정보과",
+        "majorSeq": "560"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "치기공과",
+        "majorSeq": "562"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "치기공학과",
+        "majorSeq": "10054"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "치위생과",
+        "majorSeq": "563"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "치위생학과",
+        "majorSeq": "10013"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "치의예과",
+        "majorSeq": "564"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "커뮤니케이션디자인학과",
+        "majorSeq": "566"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "컨벤션산업과",
+        "majorSeq": "567"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "컬러리스트과",
+        "majorSeq": "10011"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "컴퓨터공학과",
+        "majorSeq": "569"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "컴퓨터과",
+        "majorSeq": "21022"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "컴퓨터과학과",
+        "majorSeq": "570"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "컴퓨터교육과",
+        "majorSeq": "571"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "컴퓨터디자인학과",
+        "majorSeq": "575"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "컴퓨터보안과",
+        "majorSeq": "576"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "컴퓨터소프트웨어과",
+        "majorSeq": "578"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "컴퓨터시스템과",
+        "majorSeq": "21023"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "컴퓨터응용기계과",
+        "majorSeq": "579"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "컴퓨터정보과",
+        "majorSeq": "10036"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "코디네이션과",
+        "majorSeq": "582"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "태권도과",
+        "majorSeq": "157"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "토목공학과",
+        "majorSeq": "588"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "토목과",
+        "majorSeq": "590"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "통계학과",
+        "majorSeq": "591"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "통번역학과",
+        "majorSeq": "10034"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "특수교육학과",
+        "majorSeq": "592"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "특수장비과",
+        "majorSeq": "593"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "특수체육교육과",
+        "majorSeq": "21024"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "패션디자인과",
+        "majorSeq": "596"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "패션디자인학과",
+        "majorSeq": "10156"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "패션산업과",
+        "majorSeq": "21025"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "푸드스타일링과",
+        "majorSeq": "606"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "품질관리과",
+        "majorSeq": "607"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "프랑스학과",
+        "majorSeq": "609"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "피부미용과",
+        "majorSeq": "611"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "피아노학과",
+        "majorSeq": "612"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "한국어과",
+        "majorSeq": "10043"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "한국어학과",
+        "majorSeq": "613"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "한문교육과",
+        "majorSeq": "615"
+    },
+    {
+        "lClass": "인문계열",
+        "mClass": "한문학과",
+        "majorSeq": "616"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "한약자원학과",
+        "majorSeq": "10001"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "한약학과",
+        "majorSeq": "618"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "한의예과",
+        "majorSeq": "619"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "항공보안과",
+        "majorSeq": "10052"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "항공서비스과",
+        "majorSeq": "622"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "항공서비스학과",
+        "majorSeq": "10029"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "항공여행과",
+        "majorSeq": "623"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "항공우주공학과",
+        "majorSeq": "624"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "항공운항과",
+        "majorSeq": "625"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "항공운항학과",
+        "majorSeq": "626"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "항공정비과",
+        "majorSeq": "627"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "항해학과",
+        "majorSeq": "629"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "해양경찰과",
+        "majorSeq": "10003"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "해양경찰학과",
+        "majorSeq": "630"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "해양공학과",
+        "majorSeq": "631"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "해양생명과학과",
+        "majorSeq": "342"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "해양스포츠학과",
+        "majorSeq": "633"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "해양시스템학과",
+        "majorSeq": "634"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "해양자원학과",
+        "majorSeq": "635"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "행정과",
+        "majorSeq": "636"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "행정학과",
+        "majorSeq": "639"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "호텔경영과",
+        "majorSeq": "643"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "호텔경영학과",
+        "majorSeq": "10157"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "호텔외식경영과",
+        "majorSeq": "644"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "호텔조리과",
+        "majorSeq": "645"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "화장품과",
+        "majorSeq": "646"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "화장품과학과",
+        "majorSeq": "10010"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "화학공업과",
+        "majorSeq": "647"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "화학공학과",
+        "majorSeq": "648"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "화학공학교육과",
+        "majorSeq": "21026"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "화학과",
+        "majorSeq": "649"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "화학교육과",
+        "majorSeq": "650"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "환경공업과",
+        "majorSeq": "652"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "환경공학과",
+        "majorSeq": "653"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "환경과학과",
+        "majorSeq": "654"
+    },
+    {
+        "lClass": "교육계열",
+        "mClass": "환경교육과",
+        "majorSeq": "10042"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "환경디자인과",
+        "majorSeq": "656"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "환경디자인학과",
+        "majorSeq": "657"
+    },
+    {
+        "lClass": "의약계열",
+        "mClass": "환경보건학과",
+        "majorSeq": "658"
+    },
+    {
+        "lClass": "자연계열",
+        "mClass": "환경시스템과",
+        "majorSeq": "659"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "환경조각학과",
+        "majorSeq": "660"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "환경화학과",
+        "majorSeq": "661"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "회계학과",
+        "majorSeq": "662"
+    },
+    {
+        "lClass": "예체능계열",
+        "mClass": "회화학과",
+        "majorSeq": "663"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "e-비즈니스과",
+        "majorSeq": "10025"
+    },
+    {
+        "lClass": "사회계열",
+        "mClass": "e-비즈니스학과",
+        "majorSeq": "666"
+    },
+    {
+        "lClass": "공학계열",
+        "mClass": "IT융합학과",
+        "majorSeq": "21001"
+    }
+]
