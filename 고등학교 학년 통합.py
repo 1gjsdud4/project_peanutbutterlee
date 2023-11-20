@@ -1,6 +1,6 @@
 import json
 
-json_file_path = "C:/Users/POWER/Desktop/project_peanutbutterlee/데이터/2023년도_1학기_학교별 개설 교과목(위치 및 종류 추가).json"
+json_file_path = "C:/Users/POWER/Desktop/project_peanutbutterlee/데이터/2023년도_1학기_학교별 개설 교과목_clean_위치.json"
 
 with open(json_file_path, "r", encoding="utf-8") as json_file:
     json_data = json.load(json_file)
@@ -17,11 +17,13 @@ for item in json_data:
             "ATPT_OFCDC_SC_NM": item["ATPT_OFCDC_SC_NM"],
             "SD_SCHUL_CODE": item["SD_SCHUL_CODE"],
             "SCHUL_NM": item["SCHUL_NM"],
+            "SEM":item["SEM"],
             "AY": item["AY"],
-            "all_SUBJECT": {},
             "Latitude": item["Latitude"],
             "Longitude": item["Longitude"],
-            "고등학교구분명": item["고등학교구분명"]
+            "고등학교구분명": item["고등학교구분명"],
+            "all_SUBJECT": {}
+
         }
 
     # 학년별로 데이터 병합
@@ -34,7 +36,7 @@ for item in json_data:
 merged_data_list = list(merged_data.values())
 
 # JSON 파일로 저장
-output_file_path = "C:/Users/POWER/Desktop/project_peanutbutterlee/데이터/2023년도_1학기_학교별 개설 교과목 통합.json"
+output_file_path = "C:/Users/POWER/Desktop/project_peanutbutterlee/데이터/2023년도_1학기_학교별 개설 교과목_clean_위치_학년통합.json"
 with open(output_file_path, "w", encoding="utf-8") as json_file:
     json.dump(merged_data_list, json_file, ensure_ascii=False, indent=2)
 
