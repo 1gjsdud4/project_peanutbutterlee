@@ -1,33 +1,45 @@
 import json
 
-def get_departments(selected_job_codes, json_file_path):
-    with open(json_file_path, 'r', encoding='utf-8') as file:
-        occupations = json.load(file)
+# JSON 파일로부터 데이터 로드
+file_path_major = '데이터/직업_학과데이터.json'  # 직업_학과데이터.json 파일 경로에 맞게 수정
+file_path_subjects = '데이터/학과_고교교과목_데이터.json'  # 학과_교과목데이터.json 파일 경로에 맞게 수정
 
-    selected_departments = {}
+with open(file_path_major, 'r', encoding='utf-8') as file:
+    major_data = json.load(file)
 
-    for selected_job_code in selected_job_codes:
-        for occupation in occupations:
-            if occupation['job_cd'] == selected_job_code:
-                selected_departments[selected_job_code] = [depart['depart_name'] for depart in occupation['depart_list']]
-                break
+with open(file_path_subjects, 'r', encoding='utf-8') as file:
+    subjects_data = json.load(file)
 
-    return selected_departments
+def find_related_subjects(selected_major):
+    for major_info in subjects_data:
+        if major_info['major'] == selected_major:
+            related_subjects = major_info['related_subject']
+            return related_subjects
 
-# 학생이 선택한 희망 진로 코드들 (예시로 국회의원 코드 1061과 기업고위임원 코드 238 사용)
-selected_job_codes = [1061, 238]
+    # 선택한 학과가 데이터에 없을 경우
+    return None
 
-# JSON 파일 경로 (적절히 수정 필요)
-json_file_path = '데이터/직업_학과데이터.json'
+def recommend_subjects(selected_majors):
+    recommended_subjects = set()
 
-# 선택한 진로에 따른 학과 리스트 출력
-selected_departments = get_departments(selected_job_codes, json_file_path)
+    # 각 선택한 진로에 대해 관련된 학과의 교과목을 찾아 합집합을 구함
+    for selected_major in selected_majors:
+        related_subjects = find_related_subjects(selected_major)
+        if related_subjects:
+            recommended_subjects.update(related_subjects)
 
-if selected_departments:
-    print("선택한 진로와 관련된 학과:")
-    for job_code, departments in selected_departments.items():
-        print(f"\n진로 코드 {job_code}:")
-        for department in departments:
-            print(f"- {department}")
+    return recommended_subjects
+
+# 사용자가 선택한 진로
+selected_majors = "행정부고위공무원" # 선택한 진로에 맞게 수정
+
+# 선택한 진로와 관련된 교과목 추천
+recommended_subjects = recommend_subjects(selected_majors)
+
+# 결과 출력
+if recommended_subjects:
+    print("추천 교과목:")
+    for subject in recommended_subjects:
+        print(f" - {subject}")
 else:
-    print("해당하는 진로가 데이터에 없습니다.")
+    print("선택한 진로에 대한 정보가 데이터에 없습니다.")

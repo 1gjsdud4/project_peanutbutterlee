@@ -16,32 +16,33 @@ df = pd.DataFrame(data)
 # 위치 정보만 추출
 locations = df[["Latitude", "Longitude"]]
 
-# K-평균 모델 생성 (예시로 2개의 그룹으로 나눔)
+# K-평균 모델 생성 (예시로 30개의 그룹으로 나눔)
 print("Step 3: Creating KMeans model")
-kmeans = KMeans(n_clusters=15)
-df["Cluster"] = kmeans.fit_predict(locations)
+kmeans = KMeans(n_clusters=30)
+df["location_Cluster"] = kmeans.fit_predict(locations)
 
 # 클러스터링 평가 (실루엣 지표)
-silhouette_avg = silhouette_score(locations, df["Cluster"])
+silhouette_avg = silhouette_score(locations, df["location_Cluster"])
 print(f"Silhouette Score: {silhouette_avg}")
 
 # 클러스터링 평가 (Davies-Bouldin Index)
-db_index = davies_bouldin_score(locations, df["Cluster"])
+db_index = davies_bouldin_score(locations, df["location_Cluster"])
 print(f"Davies-Bouldin Index: {db_index}")
 
 # 그룹화 결과 확인
 print("Step 4: Viewing clustering results")
-print(df[["SCHUL_NM", "Latitude", "Longitude", "Cluster"]])
+print(df[["SCHUL_NM", "Latitude", "Longitude", "location_Cluster"]])
 
-# 시각화 (예시로 그룹이 2개이므로 2개의 색으로 표시)
+# 시각화 (예시로 그룹이 30개이므로 30개의 색으로 표시)
 print("Step 5: Visualizing clustering results")
-plt.scatter(df["Longitude"], df["Latitude"], c=df["Cluster"], cmap='viridis', edgecolor='k')
+plt.scatter(df["Longitude"], df["Latitude"], c=df["location_Cluster"], cmap='viridis', edgecolor='k')
 plt.xlabel("Longitude")
 plt.ylabel("Latitude")
 plt.title("School Clusters based on Location")
 plt.show()
 
-# JSON 파일로 결과 저장 (보기 쉽게)
-output_json_path = 'cluster_results_pretty.json'
-df.to_json(output_json_path, orient='records', lines=True, force_ascii=False, indent=2)
-print(f"Clustering results saved to {output_json_path}")
+# 클러스터링 결과를 JSON으로 저장
+print("Step 6: Saving clustering results to JSON file")
+clustered_data = df.to_dict(orient='records')
+with open('데이터/위치클러스터링_결과.json', 'w', encoding='utf-8') as outfile:
+    json.dump(clustered_data, outfile, ensure_ascii=False, indent=4)
