@@ -8,7 +8,7 @@ data = pd.read_csv('데이터/결과데이터.csv', encoding='utf-8')
 data.set_index('학교', inplace=True)
 
 # K-means 클러스터링 수행
-kmeans = KMeans(n_clusters=5)  # 클러스터 개수를 조정할 수 있습니다
+kmeans = KMeans(n_clusters=9)  # 클러스터 개수를 조정할 수 있습니다
 clusters = kmeans.fit_predict(data)
 
 # 클러스터 결과를 데이터프레임에 추가
