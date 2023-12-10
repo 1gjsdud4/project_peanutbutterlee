@@ -21,7 +21,7 @@ def download_timetable( region_code, school_code, school_name, year, sem):
         result = urlopen(url)
 
         # 데이터 저장
-        file_path = f'C:/Users/POWER/Desktop/project_peanutbutterlee/데이터/{school_name}_{year}년도_{sem}학기_시간표_page_{page}.json'
+        file_path = f'데이터/{school_name}_{year}년도_{sem}학기_시간표_page_{page}.json'
 
         print(f"Downloading page {page} to {file_path}")
         with open(file_path, 'wb') as file:
@@ -122,7 +122,7 @@ def download_jobs_data():
         # 데이터 요청 및 저장
         url = f'{api_url}={api_key}&pageIndex={page}'
         result = urlopen(url)
-        file_path = f'C:/Users/POWER/Desktop/project_peanutbutterlee/데이터/직업데이터_page_{page}.json'
+        file_path = f'데이터/직업데이터_page_{page}.json'
 
         print(f"Downloading page {page} to {file_path}")
         with open(file_path, 'wb') as file:
@@ -314,13 +314,6 @@ def download_HigeSchoolsubject_data(major_seq_list):
         with open(file_path, 'w', encoding='utf-8') as output_json_file:
             json.dump(sum_data, output_json_file, ensure_ascii=False, indent=4)
 
-
-
-def arrange_high_subject(file_path):
-    subject_15 = ["국어",'수학','영어','한국사','통합사회','통합과학','과학탐구실험','화법과 작문','독서', '언어와 매체', '문학','수학Ⅰ', '수학Ⅱ', '미적분', '확률과 통계','영어 회화', '영어Ⅰ', '영어 독해와 작문',
-'영어Ⅱ','한국지리', '세계지리', '세계사', '동아시아사','경제', '정치와 법', '사회·문화', '생활과 윤리', '윤리와 사상','물리학Ⅰ' , '화학Ⅰ', '생명과학Ⅰ', '지구과학Ⅰ','체육', '운동과 건강','음악', '미술', '연극','기술·가정', '정보','독일어Ⅰ','프랑스어Ⅰ','스페인어Ⅰ','중국어Ⅰ','일본어Ⅰ','러시아어Ⅰ','아랍어Ⅰ','베트남어Ⅰ','한문Ⅰ','철학', '논리학', '심리학', '교육학', '종교학', '진로와 직업', '보건', '환경', '실용 경제', '논술','실용 국어', '심화 국어', '고전 읽기','실용 수학', '기하', '경제 수학', '수학과제 탐구','실용 영어', '영어권 문화', '진로 영어',
-'영미 문학 읽기','여행지리', '사회문제 탐구','고전과 윤리','물리학Ⅱ', '화학Ⅱ', '생명과학Ⅱ', '지구과학Ⅱ','과학사', '생활과 과학', '융합과학', '스포츠 생활', '체육 탐구','음악 연주', '음악 감상과 비평','미술 창작', '미술 감상과 비평', '농업 생명 과학', '공학 일반', '창의 경영',
-'해양 문화와 기술', '가정과학', '지식 재산 일반', '독일어Ⅱ','프랑스어Ⅱ','스페인어Ⅱ','중국어Ⅱ','일본어Ⅱ','러시아어Ⅱ','아랍어Ⅱ','베트남어Ⅱ', '한문Ⅱ']
 
 
 

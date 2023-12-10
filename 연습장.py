@@ -1,72 +1,36 @@
-import torch
-import torch.nn as nn
-import torch.optim as optim
-import numpy as np
 import json
 
-def format_job_data_from_file():
+def subjects_of_same_cluster(student_school_code, schools_data):
+    # 입력된 학교 코드로 학교 정보 가져오기
+    student_school_data = next((school for school in schools_data if school["SD_SCHUL_CODE"] == student_school_code), None)
 
-    file_path = '데이터/직업_학과데이터.json'
+    if student_school_data is None:
+        print("학교 정보를 찾을 수 없습니다.")
+        return []
 
-    with open(file_path, 'r', encoding='utf-8') as json_file:
-        job_data_list = json.load(json_file)
+    all_subjects_same_cluster = set()
 
-    major_data = {}
+    # 입력된 학교의 final_Cluster를 가져옴
+    student_cluster = student_school_data["final_Cluster"]
 
-    for job_info in job_data_list:
-        job_name = job_info.get("job_nm")
-        depart_sum = []
-        if job_name:
-            depart_list = job_info.get("depart_list", [])
-            if None in depart_list:
-                continue
-            else:
-                for depart in depart_list:
-                        depart_name = depart["depart_name"]
-                        depart_sum.append(depart_name)
-                major_data[job_name] = depart_sum
-    
-    return major_data
-                
-def format_highschool_data_from_file():
-    file_path = '데이터/학과_고교교과목_데이터.json'
-    with open(file_path, 'r', encoding='utf-8') as file:
-        data = json.load(file)
+    # final_Cluster가 같은 학교들의 데이터 필터링
+    relevant_schools = [school for school in schools_data if school["final_Cluster"] == student_cluster]
 
-    result_dict = {}
+    # 교과목 추천을 위한 데이터 생성
+    for school in relevant_schools:
+        # 각 학교의 모든 교과목을 종합
+        all_subjects_same_cluster.update(school["all_SUBJECT"].keys())
 
-    for item in data:
-        major_name = item["major"]
-        related_subject = item["related_subject"]
+    return list(all_subjects_same_cluster)
 
-        for subject_type, subjects in related_subject.items():
-            if major_name not in result_dict:
-                result_dict[major_name] = []
+school_path = '데이터/최종_결과.json'
+with open(school_path, 'r', encoding='utf-8') as json_file:
+    schools_data = json.load(json_file)
 
-            # 교과목 리스트에 추가
-            result_dict[major_name].extend(subjects)
-    
-    return result_dict
+# 학생의 "SD_SCHUL_CODE"를 입력 받기
+student_school_code = "7010057"
 
+# 교과목 추천 함수 호출
+all_subjects_same_cluster = subjects_of_same_cluster(student_school_code, schools_data)
 
-def generate_data():
-    
-
-    major_data = format_job_data_from_file()
-    subjects_data = format_highschool_data_from_file()
-
-
-    all_majors = list(set(major for majors in major_data.values() for major in majors))
-    all_subjects = list(set(subject for subjects in subjects_data.values() for subject in subjects))
-
-    major_to_index = {major: i for i, major in enumerate(all_majors)}
-    subject_to_index = {subject: i for i, subject in enumerate(all_subjects)}
-
-    indexed_major_data = {job: [major_to_index[major] for major in majors] for job, majors in major_data.items()}
-    indexed_subjects_data = {major: [subject_to_index[subject] for subject in subjects] for major, subjects in subjects_data.items()}
-
-    print(all_majors, all_subjects, indexed_major_data, indexed_subjects_data)
-    return all_majors, all_subjects, indexed_major_data, indexed_subjects_data
-
-
-generate_data()
+print(all_subjects_same_cluster)

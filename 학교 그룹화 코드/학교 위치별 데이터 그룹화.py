@@ -6,7 +6,7 @@ import json
 
 # JSON 파일로부터 데이터 읽기
 print("Step 1: Reading data from JSON file")
-with open('데이터/2023년도_1학기_학교별 개설교과목_교원 수.json', 'r', encoding='utf-8') as file:
+with open('데이터/2022년도_1학기_학교별 개설교과목_교원 수.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # 데이터프레임으로 변환
