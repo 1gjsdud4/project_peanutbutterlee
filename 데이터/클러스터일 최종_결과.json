@@ -74,9 +74,9 @@
       "예술": 3,
       "사회(역사/도덕포함)": 8
     },
-    "location_Cluster": 2,
+    "location_Cluster": 4,
     "sub_Cluster": 0,
-    "final_Cluster": 2
+    "final_Cluster": 1
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -155,9 +155,9 @@
       "예술(음악/미술)": 1,
       "체육": 3
     },
-    "location_Cluster": 15,
+    "location_Cluster": 17,
     "sub_Cluster": 0,
-    "final_Cluster": 3
+    "final_Cluster": 4
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -230,9 +230,9 @@
       "사회(역사/도덕포함)": 7,
       "한국사": 2
     },
-    "location_Cluster": 10,
+    "location_Cluster": 7,
     "sub_Cluster": 0,
-    "final_Cluster": 5
+    "final_Cluster": 7
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -308,8 +308,8 @@
       "예술": 5
     },
     "location_Cluster": 1,
-    "sub_Cluster": 0,
-    "final_Cluster": 9
+    "sub_Cluster": 8,
+    "final_Cluster": 10
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -396,9 +396,9 @@
       "체육": 2,
       "예술": 1
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 1,
-    "final_Cluster": 13
+    "location_Cluster": 15,
+    "sub_Cluster": 6,
+    "final_Cluster": 11
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -480,9 +480,9 @@
       "예술": 4,
       "사회(역사/도덕포함)": 8
     },
-    "location_Cluster": 10,
-    "sub_Cluster": 4,
-    "final_Cluster": 5
+    "location_Cluster": 7,
+    "sub_Cluster": 0,
+    "final_Cluster": 6
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -559,9 +559,9 @@
       "체육": 4,
       "예술": 4
     },
-    "location_Cluster": 6,
-    "sub_Cluster": 0,
-    "final_Cluster": 14
+    "location_Cluster": 13,
+    "sub_Cluster": 8,
+    "final_Cluster": 16
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -651,9 +651,9 @@
       "과학": 13,
       "국어": 11
     },
-    "location_Cluster": 18,
-    "sub_Cluster": 0,
-    "final_Cluster": 17
+    "location_Cluster": 9,
+    "sub_Cluster": 8,
+    "final_Cluster": 18
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -734,9 +734,9 @@
       "과학": 16,
       "기술·가정/제2외국어/한문/교양": 5
     },
-    "location_Cluster": 6,
-    "sub_Cluster": 0,
-    "final_Cluster": 14
+    "location_Cluster": 13,
+    "sub_Cluster": 8,
+    "final_Cluster": 15
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -862,8 +862,8 @@
       "경영·금융": 4,
       "기계": 31
     },
-    "location_Cluster": 5,
-    "sub_Cluster": 1,
+    "location_Cluster": 8,
+    "sub_Cluster": 6,
     "final_Cluster": 19
   },
   {
@@ -966,9 +966,9 @@
       "기술·가정/제2외국어/한문/교양": 2,
       "경영·금융": 17
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 3,
-    "final_Cluster": 21
+    "location_Cluster": 6,
+    "sub_Cluster": 6,
+    "final_Cluster": 23
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1051,9 +1051,9 @@
       "수학": 15,
       "기술·가정/제2외국어/한문/교양": 9
     },
-    "location_Cluster": 6,
+    "location_Cluster": 13,
     "sub_Cluster": 0,
-    "final_Cluster": 15
+    "final_Cluster": 16
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1140,9 +1140,9 @@
       "영어": 8,
       "수학": 7
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 4,
-    "final_Cluster": 25
+    "location_Cluster": 14,
+    "sub_Cluster": 0,
+    "final_Cluster": 26
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1219,9 +1219,9 @@
       "기술·가정/제2외국어/한문/교양": 5,
       "사회(역사/도덕포함)": 4
     },
-    "location_Cluster": 23,
-    "sub_Cluster": 0,
-    "final_Cluster": 26
+    "location_Cluster": 12,
+    "sub_Cluster": 8,
+    "final_Cluster": 29
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1308,9 +1308,9 @@
       "예술": 6,
       "기술·가정/제2외국어/한문/교양": 16
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 0,
-    "final_Cluster": 21
+    "location_Cluster": 6,
+    "sub_Cluster": 8,
+    "final_Cluster": 23
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1387,9 +1387,9 @@
       "한국사": 1,
       "기술·가정/제2외국어/한문/교양": 3
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 3,
-    "final_Cluster": 13
+    "location_Cluster": 15,
+    "sub_Cluster": 2,
+    "final_Cluster": 14
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1467,9 +1467,9 @@
       "국어": 8,
       "예술": 3
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 0,
-    "final_Cluster": 10
+    "location_Cluster": 15,
+    "sub_Cluster": 8,
+    "final_Cluster": 13
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1548,9 +1548,9 @@
       "과학": 8,
       "체육": 3
     },
-    "location_Cluster": 15,
+    "location_Cluster": 17,
     "sub_Cluster": 0,
-    "final_Cluster": 3
+    "final_Cluster": 5
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1650,9 +1650,9 @@
       "예술": 2,
       "선택": 1
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 4,
-    "final_Cluster": 24
+    "location_Cluster": 14,
+    "sub_Cluster": 7,
+    "final_Cluster": 27
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1689,9 +1689,9 @@
       "수학": 11,
       "국어": 12
     },
-    "location_Cluster": 29,
-    "sub_Cluster": 1,
-    "final_Cluster": 28
+    "location_Cluster": 11,
+    "sub_Cluster": 0,
+    "final_Cluster": 32
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1771,9 +1771,9 @@
       "과학": 6,
       "영어": 5
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 2,
-    "final_Cluster": 31
+    "location_Cluster": 0,
+    "sub_Cluster": 8,
+    "final_Cluster": 33
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1853,9 +1853,9 @@
       "사회(역사/도덕포함)": 7,
       "과학": 10
     },
-    "location_Cluster": 0,
-    "sub_Cluster": 0,
-    "final_Cluster": 33
+    "location_Cluster": 2,
+    "sub_Cluster": 8,
+    "final_Cluster": 37
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -1948,9 +1948,9 @@
       "예술": 3,
       "수학": 7
     },
-    "location_Cluster": 0,
-    "sub_Cluster": 2,
-    "final_Cluster": 33
+    "location_Cluster": 2,
+    "sub_Cluster": 8,
+    "final_Cluster": 36
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2045,9 +2045,9 @@
       "국어": 13,
       "선택": 1
     },
-    "location_Cluster": 13,
-    "sub_Cluster": 4,
-    "final_Cluster": 35
+    "location_Cluster": 2,
+    "sub_Cluster": 0,
+    "final_Cluster": 36
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2125,9 +2125,9 @@
       "수학": 10,
       "사회(역사/도덕포함)": 5
     },
-    "location_Cluster": 13,
-    "sub_Cluster": 0,
-    "final_Cluster": 35
+    "location_Cluster": 14,
+    "sub_Cluster": 8,
+    "final_Cluster": 27
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2233,9 +2233,9 @@
       "음식 조리": 9,
       "식품 가공": 3
     },
-    "location_Cluster": 13,
-    "sub_Cluster": 3,
-    "final_Cluster": 35
+    "location_Cluster": 14,
+    "sub_Cluster": 2,
+    "final_Cluster": 27
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2311,9 +2311,9 @@
       "한국사": 3,
       "영어": 8
     },
-    "location_Cluster": 29,
-    "sub_Cluster": 2,
-    "final_Cluster": 28
+    "location_Cluster": 11,
+    "sub_Cluster": 4,
+    "final_Cluster": 32
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2390,9 +2390,9 @@
       "기술·가정/제2외국어/한문/교양": 5,
       "사회(역사/도덕포함)": 10
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 0,
-    "final_Cluster": 10
+    "location_Cluster": 15,
+    "sub_Cluster": 8,
+    "final_Cluster": 11
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2474,8 +2474,8 @@
       "사회(역사/도덕포함)": 7
     },
     "location_Cluster": 1,
-    "sub_Cluster": 0,
-    "final_Cluster": 8
+    "sub_Cluster": 8,
+    "final_Cluster": 10
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2552,9 +2552,9 @@
       "영어": 11,
       "수학": 12
     },
-    "location_Cluster": 18,
+    "location_Cluster": 9,
     "sub_Cluster": 0,
-    "final_Cluster": 17
+    "final_Cluster": 18
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2636,9 +2636,9 @@
       "국어": 11,
       "수학": 12
     },
-    "location_Cluster": 10,
-    "sub_Cluster": 2,
-    "final_Cluster": 5
+    "location_Cluster": 7,
+    "sub_Cluster": 0,
+    "final_Cluster": 7
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2715,9 +2715,9 @@
       "기술·가정/제2외국어/한문/교양": 5,
       "국어": 10
     },
-    "location_Cluster": 15,
+    "location_Cluster": 10,
     "sub_Cluster": 0,
-    "final_Cluster": 3
+    "final_Cluster": 42
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2796,9 +2796,9 @@
       "예술": 3,
       "기술·가정/제2외국어/한문/교양": 7
     },
-    "location_Cluster": 21,
-    "sub_Cluster": 5,
-    "final_Cluster": 36
+    "location_Cluster": 3,
+    "sub_Cluster": 4,
+    "final_Cluster": 47
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2898,9 +2898,9 @@
       "과학": 1,
       "국어": 3
     },
-    "location_Cluster": 21,
-    "sub_Cluster": 3,
-    "final_Cluster": 37
+    "location_Cluster": 3,
+    "sub_Cluster": 6,
+    "final_Cluster": 45
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -2978,9 +2978,9 @@
       "진로와 직업": 1,
       "선택": 3
     },
-    "location_Cluster": 18,
-    "sub_Cluster": 0,
-    "final_Cluster": 17
+    "location_Cluster": 9,
+    "sub_Cluster": 8,
+    "final_Cluster": 18
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -3060,9 +3060,9 @@
       "예술": 4,
       "기술·가정/제2외국어/한문/교양": 7
     },
-    "location_Cluster": 8,
+    "location_Cluster": 15,
     "sub_Cluster": 0,
-    "final_Cluster": 12
+    "final_Cluster": 13
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -3140,8 +3140,8 @@
       "예술": 4,
       "기술·가정/제2외국어/한문/교양": 5
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 0,
+    "location_Cluster": 15,
+    "sub_Cluster": 8,
     "final_Cluster": 12
   },
   {
@@ -3249,9 +3249,9 @@
       "기술·가정/제2외국어/한문/교양": 6,
       "국어": 4
     },
-    "location_Cluster": 5,
-    "sub_Cluster": 1,
-    "final_Cluster": 20
+    "location_Cluster": 2,
+    "sub_Cluster": 2,
+    "final_Cluster": 38
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -3331,9 +3331,9 @@
       "기술·가정/제2외국어/한문/교양": 6,
       "진로와 직업": 1
     },
-    "location_Cluster": 29,
-    "sub_Cluster": 0,
-    "final_Cluster": 27
+    "location_Cluster": 1,
+    "sub_Cluster": 8,
+    "final_Cluster": 9
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -3422,9 +3422,9 @@
       "국어": 8,
       "수학": 6
     },
-    "location_Cluster": 4,
-    "sub_Cluster": 5,
-    "final_Cluster": 38
+    "location_Cluster": 3,
+    "sub_Cluster": 4,
+    "final_Cluster": 45
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -3511,9 +3511,9 @@
       "외국어 계열": 1,
       "선택": 1
     },
-    "location_Cluster": 29,
-    "sub_Cluster": 2,
-    "final_Cluster": 27
+    "location_Cluster": 1,
+    "sub_Cluster": 0,
+    "final_Cluster": 9
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -3594,9 +3594,9 @@
       "수학": 10,
       "사회(역사/도덕포함)": 7
     },
-    "location_Cluster": 29,
+    "location_Cluster": 1,
     "sub_Cluster": 0,
-    "final_Cluster": 27
+    "final_Cluster": 8
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -3683,9 +3683,9 @@
       "선택": 2,
       "국어": 10
     },
-    "location_Cluster": 12,
-    "sub_Cluster": 2,
-    "final_Cluster": 41
+    "location_Cluster": 11,
+    "sub_Cluster": 8,
+    "final_Cluster": 32
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -3775,9 +3775,9 @@
       "수학": 8,
       "국어": 8
     },
-    "location_Cluster": 21,
-    "sub_Cluster": 4,
-    "final_Cluster": 37
+    "location_Cluster": 3,
+    "sub_Cluster": 0,
+    "final_Cluster": 46
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -3861,9 +3861,9 @@
       "국어": 8,
       "사회(역사/도덕포함)": 7
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 0,
-    "final_Cluster": 29
+    "location_Cluster": 0,
+    "sub_Cluster": 8,
+    "final_Cluster": 35
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -3940,9 +3940,9 @@
       "과학": 9,
       "수학": 10
     },
-    "location_Cluster": 21,
-    "sub_Cluster": 5,
-    "final_Cluster": 36
+    "location_Cluster": 3,
+    "sub_Cluster": 0,
+    "final_Cluster": 47
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -4022,9 +4022,9 @@
       "체육": 3,
       "예술": 5
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 2,
-    "final_Cluster": 42
+    "location_Cluster": 8,
+    "sub_Cluster": 8,
+    "final_Cluster": 21
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -4121,9 +4121,9 @@
       "국어": 6,
       "한국사": 2
     },
-    "location_Cluster": 22,
-    "sub_Cluster": 4,
-    "final_Cluster": 44
+    "location_Cluster": 16,
+    "sub_Cluster": 7,
+    "final_Cluster": 48
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -4199,9 +4199,9 @@
       "수학": 4,
       "기술·가정/제2외국어/한문/교양": 3
     },
-    "location_Cluster": 6,
-    "sub_Cluster": 1,
-    "final_Cluster": 14
+    "location_Cluster": 13,
+    "sub_Cluster": 2,
+    "final_Cluster": 16
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -4281,9 +4281,9 @@
       "과학": 15,
       "체육": 5
     },
-    "location_Cluster": 6,
-    "sub_Cluster": 0,
-    "final_Cluster": 14
+    "location_Cluster": 13,
+    "sub_Cluster": 8,
+    "final_Cluster": 16
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -4372,9 +4372,9 @@
       "체육": 4,
       "기술·가정/제2외국어/한문/교양": 7
     },
-    "location_Cluster": 25,
-    "sub_Cluster": 0,
-    "final_Cluster": 45
+    "location_Cluster": 3,
+    "sub_Cluster": 8,
+    "final_Cluster": 43
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -4488,9 +4488,9 @@
       "기술·가정/제2외국어/한문/교양": 10,
       "수학": 9
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 0,
-    "final_Cluster": 24
+    "location_Cluster": 14,
+    "sub_Cluster": 8,
+    "final_Cluster": 26
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -4562,9 +4562,9 @@
       "정보·통신": 1,
       "체육": 2
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 3,
-    "final_Cluster": 23
+    "location_Cluster": 6,
+    "sub_Cluster": 2,
+    "final_Cluster": 24
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -4648,9 +4648,9 @@
       "국어": 9,
       "수학": 11
     },
-    "location_Cluster": 11,
-    "sub_Cluster": 2,
-    "final_Cluster": 47
+    "location_Cluster": 5,
+    "sub_Cluster": 8,
+    "final_Cluster": 50
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -4728,9 +4728,9 @@
       "체육": 3,
       "국어": 7
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 0,
-    "final_Cluster": 21
+    "location_Cluster": 6,
+    "sub_Cluster": 8,
+    "final_Cluster": 23
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -4813,9 +4813,9 @@
       "선택": 4,
       "국어": 8
     },
-    "location_Cluster": 25,
+    "location_Cluster": 3,
     "sub_Cluster": 0,
-    "final_Cluster": 45
+    "final_Cluster": 44
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -4906,9 +4906,9 @@
       "수학": 10,
       "기술·가정/제2외국어/한문/교양": 5
     },
-    "location_Cluster": 18,
-    "sub_Cluster": 2,
-    "final_Cluster": 18
+    "location_Cluster": 9,
+    "sub_Cluster": 8,
+    "final_Cluster": 17
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5008,9 +5008,9 @@
       "국어": 9,
       "사회(역사/도덕포함)": 6
     },
-    "location_Cluster": 18,
-    "sub_Cluster": 2,
-    "final_Cluster": 18
+    "location_Cluster": 9,
+    "sub_Cluster": 0,
+    "final_Cluster": 17
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5096,9 +5096,9 @@
       "영어": 4,
       "수학": 7
     },
-    "location_Cluster": 18,
-    "sub_Cluster": 4,
-    "final_Cluster": 18
+    "location_Cluster": 9,
+    "sub_Cluster": 1,
+    "final_Cluster": 17
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5181,8 +5181,8 @@
       "수학": 13
     },
     "location_Cluster": 1,
-    "sub_Cluster": 4,
-    "final_Cluster": 7
+    "sub_Cluster": 0,
+    "final_Cluster": 9
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5276,9 +5276,9 @@
       "사회(역사/도덕포함)": 2,
       "정보·통신": 2
     },
-    "location_Cluster": 12,
-    "sub_Cluster": 3,
-    "final_Cluster": 41
+    "location_Cluster": 11,
+    "sub_Cluster": 2,
+    "final_Cluster": 31
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5347,9 +5347,9 @@
       "체육": 5,
       "사회(역사/도덕포함)": 7
     },
-    "location_Cluster": 5,
+    "location_Cluster": 8,
     "sub_Cluster": 0,
-    "final_Cluster": 20
+    "final_Cluster": 21
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5430,9 +5430,9 @@
       "수학": 5,
       "인쇄·출판·공예": 1
     },
-    "location_Cluster": 26,
-    "sub_Cluster": 3,
-    "final_Cluster": 49
+    "location_Cluster": 19,
+    "sub_Cluster": 2,
+    "final_Cluster": 54
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5509,9 +5509,9 @@
       "기술·가정/제2외국어/한문/교양": 7,
       "국어": 11
     },
-    "location_Cluster": 5,
-    "sub_Cluster": 2,
-    "final_Cluster": 19
+    "location_Cluster": 8,
+    "sub_Cluster": 8,
+    "final_Cluster": 21
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5596,9 +5596,9 @@
       "수학": 9,
       "국어": 10
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 2,
-    "final_Cluster": 23
+    "location_Cluster": 6,
+    "sub_Cluster": 0,
+    "final_Cluster": 24
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5659,9 +5659,9 @@
       "디자인·문화 콘텐츠": 2,
       "경영·금융": 7
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 3,
-    "final_Cluster": 29
+    "location_Cluster": 0,
+    "sub_Cluster": 2,
+    "final_Cluster": 33
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5698,9 +5698,9 @@
       "기술·가정/제2외국어/한문/교양": 4,
       "사회(역사/도덕포함)": 6
     },
-    "location_Cluster": 17,
-    "sub_Cluster": 1,
-    "final_Cluster": 50
+    "location_Cluster": 4,
+    "sub_Cluster": 7,
+    "final_Cluster": 1
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5780,9 +5780,9 @@
       "영어": 11,
       "한국사": 4
     },
-    "location_Cluster": 8,
+    "location_Cluster": 15,
     "sub_Cluster": 0,
-    "final_Cluster": 13
+    "final_Cluster": 12
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5854,9 +5854,9 @@
       "영어": 3,
       "한국사": 1
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 4,
-    "final_Cluster": 13
+    "location_Cluster": 15,
+    "sub_Cluster": 7,
+    "final_Cluster": 14
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -5929,9 +5929,9 @@
       "국어": 1,
       "수학": 2
     },
-    "location_Cluster": 12,
-    "sub_Cluster": 1,
-    "final_Cluster": 40
+    "location_Cluster": 11,
+    "sub_Cluster": 2,
+    "final_Cluster": 30
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -6014,9 +6014,9 @@
       "기술·가정/제2외국어/한문/교양": 2,
       "체육": 2
     },
-    "location_Cluster": 22,
-    "sub_Cluster": 2,
-    "final_Cluster": 44
+    "location_Cluster": 16,
+    "sub_Cluster": 8,
+    "final_Cluster": 48
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -6101,9 +6101,9 @@
       "수학": 7,
       "영어": 6
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 5,
-    "final_Cluster": 30
+    "location_Cluster": 0,
+    "sub_Cluster": 8,
+    "final_Cluster": 33
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -6184,9 +6184,9 @@
       "선택": 3,
       "영어": 8
     },
-    "location_Cluster": 21,
-    "sub_Cluster": 5,
-    "final_Cluster": 36
+    "location_Cluster": 3,
+    "sub_Cluster": 8,
+    "final_Cluster": 44
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -6259,9 +6259,9 @@
       "수학": 10,
       "영어": 10
     },
-    "location_Cluster": 0,
-    "sub_Cluster": 4,
-    "final_Cluster": 32
+    "location_Cluster": 18,
+    "sub_Cluster": 7,
+    "final_Cluster": 56
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -6346,9 +6346,9 @@
       "한국사": 2,
       "영어": 8
     },
-    "location_Cluster": 18,
-    "sub_Cluster": 2,
-    "final_Cluster": 18
+    "location_Cluster": 9,
+    "sub_Cluster": 0,
+    "final_Cluster": 17
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -6423,9 +6423,9 @@
       "체육": 4,
       "예술": 5
     },
-    "location_Cluster": 23,
-    "sub_Cluster": 5,
-    "final_Cluster": 26
+    "location_Cluster": 12,
+    "sub_Cluster": 0,
+    "final_Cluster": 28
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -6507,9 +6507,9 @@
       "예술": 2,
       "영어": 2
     },
-    "location_Cluster": 11,
-    "sub_Cluster": 3,
-    "final_Cluster": 46
+    "location_Cluster": 5,
+    "sub_Cluster": 6,
+    "final_Cluster": 51
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -6586,9 +6586,9 @@
       "수학": 11,
       "영어": 10
     },
-    "location_Cluster": 11,
-    "sub_Cluster": 2,
-    "final_Cluster": 47
+    "location_Cluster": 5,
+    "sub_Cluster": 0,
+    "final_Cluster": 51
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -6687,9 +6687,9 @@
       "기술·가정/제2외국어/한문/교양": 11,
       "국어": 12
     },
-    "location_Cluster": 2,
-    "sub_Cluster": 4,
-    "final_Cluster": 1
+    "location_Cluster": 4,
+    "sub_Cluster": 7,
+    "final_Cluster": 3
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -6780,8 +6780,8 @@
       "기술·가정/제2외국어/한문/교양": 7,
       "선택": 1
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 5,
+    "location_Cluster": 14,
+    "sub_Cluster": 8,
     "final_Cluster": 25
   },
   {
@@ -6854,9 +6854,9 @@
       "수학": 8,
       "사회(역사/도덕포함)": 4
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 4,
-    "final_Cluster": 10
+    "location_Cluster": 15,
+    "sub_Cluster": 8,
+    "final_Cluster": 11
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -6942,9 +6942,9 @@
       "기술·가정/제2외국어/한문/교양": 5,
       "국어": 8
     },
-    "location_Cluster": 21,
+    "location_Cluster": 3,
     "sub_Cluster": 0,
-    "final_Cluster": 37
+    "final_Cluster": 46
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -7028,9 +7028,9 @@
       "영어": 8,
       "한국사": 2
     },
-    "location_Cluster": 4,
-    "sub_Cluster": 0,
-    "final_Cluster": 38
+    "location_Cluster": 12,
+    "sub_Cluster": 8,
+    "final_Cluster": 29
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -7110,9 +7110,9 @@
       "수학": 9,
       "영어": 9
     },
-    "location_Cluster": 10,
-    "sub_Cluster": 2,
-    "final_Cluster": 6
+    "location_Cluster": 7,
+    "sub_Cluster": 0,
+    "final_Cluster": 7
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -7196,9 +7196,9 @@
       "과학": 7,
       "사회(역사/도덕포함)": 7
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 0,
-    "final_Cluster": 11
+    "location_Cluster": 15,
+    "sub_Cluster": 8,
+    "final_Cluster": 14
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -7280,9 +7280,9 @@
       "기술·가정/제2외국어/한문/교양": 2,
       "디자인·문화 콘텐츠": 18
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 1,
-    "final_Cluster": 23
+    "location_Cluster": 6,
+    "sub_Cluster": 2,
+    "final_Cluster": 22
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -7372,9 +7372,9 @@
       "기술·가정/제2외국어/한문/교양": 5,
       "과학": 10
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 0,
-    "final_Cluster": 10
+    "location_Cluster": 15,
+    "sub_Cluster": 7,
+    "final_Cluster": 14
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -7464,9 +7464,9 @@
       "국어": 8,
       "수학": 7
     },
-    "location_Cluster": 20,
-    "sub_Cluster": 0,
-    "final_Cluster": 52
+    "location_Cluster": 18,
+    "sub_Cluster": 8,
+    "final_Cluster": 57
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -7551,9 +7551,9 @@
       "기술·가정/제2외국어/한문/교양": 4,
       "영어": 7
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 0,
-    "final_Cluster": 12
+    "location_Cluster": 15,
+    "sub_Cluster": 8,
+    "final_Cluster": 13
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -7633,8 +7633,8 @@
       "수학": 12,
       "국어": 14
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 4,
+    "location_Cluster": 15,
+    "sub_Cluster": 0,
     "final_Cluster": 13
   },
   {
@@ -7719,8 +7719,8 @@
       "과학": 3,
       "체육": 4
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 4,
+    "location_Cluster": 15,
+    "sub_Cluster": 1,
     "final_Cluster": 13
   },
   {
@@ -7803,9 +7803,9 @@
       "국어": 8,
       "한국사": 2
     },
-    "location_Cluster": 10,
+    "location_Cluster": 7,
     "sub_Cluster": 0,
-    "final_Cluster": 6
+    "final_Cluster": 7
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -7856,9 +7856,9 @@
       "국어": 14,
       "한국사": 2
     },
-    "location_Cluster": 24,
-    "sub_Cluster": 0,
-    "final_Cluster": 53
+    "location_Cluster": 17,
+    "sub_Cluster": 8,
+    "final_Cluster": 4
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -7935,9 +7935,9 @@
       "과학": 12,
       "체육": 5
     },
-    "location_Cluster": 29,
-    "sub_Cluster": 2,
-    "final_Cluster": 28
+    "location_Cluster": 1,
+    "sub_Cluster": 8,
+    "final_Cluster": 10
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -8024,9 +8024,9 @@
       "체육": 3,
       "예술": 4
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 0,
-    "final_Cluster": 29
+    "location_Cluster": 0,
+    "sub_Cluster": 8,
+    "final_Cluster": 33
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -8143,9 +8143,9 @@
       "사회(역사/도덕포함)": 8,
       "과학": 10
     },
-    "location_Cluster": 21,
-    "sub_Cluster": 0,
-    "final_Cluster": 37
+    "location_Cluster": 3,
+    "sub_Cluster": 8,
+    "final_Cluster": 47
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -8212,9 +8212,9 @@
       "한국사": 3,
       "사회(역사/도덕포함)": 7
     },
-    "location_Cluster": 17,
-    "sub_Cluster": 2,
-    "final_Cluster": 50
+    "location_Cluster": 4,
+    "sub_Cluster": 4,
+    "final_Cluster": 1
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -8298,9 +8298,9 @@
       "사회(역사/도덕포함)": 9,
       "한국사": 2
     },
-    "location_Cluster": 17,
+    "location_Cluster": 4,
     "sub_Cluster": 0,
-    "final_Cluster": 50
+    "final_Cluster": 1
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -8408,9 +8408,9 @@
       "기계": 5,
       "건설": 1
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 1,
-    "final_Cluster": 43
+    "location_Cluster": 8,
+    "sub_Cluster": 2,
+    "final_Cluster": 20
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -8485,9 +8485,9 @@
       "예술": 2,
       "과학": 7
     },
-    "location_Cluster": 21,
-    "sub_Cluster": 4,
-    "final_Cluster": 37
+    "location_Cluster": 3,
+    "sub_Cluster": 0,
+    "final_Cluster": 47
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -8581,9 +8581,9 @@
       "국어": 1,
       "수학": 4
     },
-    "location_Cluster": 21,
-    "sub_Cluster": 4,
-    "final_Cluster": 36
+    "location_Cluster": 3,
+    "sub_Cluster": 2,
+    "final_Cluster": 47
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -8668,9 +8668,9 @@
       "과학": 12,
       "영어": 8
     },
-    "location_Cluster": 19,
-    "sub_Cluster": 2,
-    "final_Cluster": 54
+    "location_Cluster": 12,
+    "sub_Cluster": 8,
+    "final_Cluster": 28
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -8758,8 +8758,8 @@
       "예술": 3,
       "기술·가정/제2외국어/한문/교양": 6
     },
-    "location_Cluster": 2,
-    "sub_Cluster": 5,
+    "location_Cluster": 4,
+    "sub_Cluster": 0,
     "final_Cluster": 2
   },
   {
@@ -8915,9 +8915,9 @@
       "수학": 10,
       "국어": 10
     },
-    "location_Cluster": 26,
-    "sub_Cluster": 0,
-    "final_Cluster": 48
+    "location_Cluster": 19,
+    "sub_Cluster": 8,
+    "final_Cluster": 53
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -8993,9 +8993,9 @@
       "사회(역사/도덕포함)": 4,
       "기술·가정/제2외국어/한문/교양": 4
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 0,
-    "final_Cluster": 58
+    "location_Cluster": 10,
+    "sub_Cluster": 7,
+    "final_Cluster": 39
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -9081,9 +9081,9 @@
       "체육": 5,
       "예술": 3
     },
-    "location_Cluster": 10,
+    "location_Cluster": 7,
     "sub_Cluster": 0,
-    "final_Cluster": 4
+    "final_Cluster": 6
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -9186,9 +9186,9 @@
       "기술·가정/제2외국어/한문/교양": 5,
       "영어": 8
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 4,
-    "final_Cluster": 22
+    "location_Cluster": 6,
+    "sub_Cluster": 7,
+    "final_Cluster": 23
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -9264,8 +9264,8 @@
       "과학": 11,
       "영어": 9
     },
-    "location_Cluster": 2,
-    "sub_Cluster": 5,
+    "location_Cluster": 4,
+    "sub_Cluster": 4,
     "final_Cluster": 2
   },
   {
@@ -9348,9 +9348,9 @@
       "수학": 8,
       "영어": 6
     },
-    "location_Cluster": 14,
+    "location_Cluster": 10,
     "sub_Cluster": 0,
-    "final_Cluster": 56
+    "final_Cluster": 41
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -9434,9 +9434,9 @@
       "사회(역사/도덕포함)": 7,
       "수학": 14
     },
-    "location_Cluster": 17,
-    "sub_Cluster": 2,
-    "final_Cluster": 50
+    "location_Cluster": 4,
+    "sub_Cluster": 8,
+    "final_Cluster": 2
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -9520,9 +9520,9 @@
       "영어": 8,
       "수학": 9
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 2,
-    "final_Cluster": 43
+    "location_Cluster": 8,
+    "sub_Cluster": 8,
+    "final_Cluster": 19
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -9604,9 +9604,9 @@
       "국어": 8,
       "체육": 3
     },
-    "location_Cluster": 13,
-    "sub_Cluster": 2,
-    "final_Cluster": 34
+    "location_Cluster": 2,
+    "sub_Cluster": 0,
+    "final_Cluster": 37
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -9696,9 +9696,9 @@
       "국어": 6,
       "수학": 5
     },
-    "location_Cluster": 4,
-    "sub_Cluster": 4,
-    "final_Cluster": 39
+    "location_Cluster": 3,
+    "sub_Cluster": 7,
+    "final_Cluster": 46
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -9782,9 +9782,9 @@
       "기술·가정/제2외국어/한문/교양": 6,
       "국어": 8
     },
-    "location_Cluster": 5,
-    "sub_Cluster": 2,
-    "final_Cluster": 19
+    "location_Cluster": 8,
+    "sub_Cluster": 8,
+    "final_Cluster": 21
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -9867,9 +9867,9 @@
       "수학": 9,
       "과학": 9
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 5,
-    "final_Cluster": 42
+    "location_Cluster": 8,
+    "sub_Cluster": 8,
+    "final_Cluster": 20
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -9959,9 +9959,9 @@
       "수학": 6,
       "영어": 6
     },
-    "location_Cluster": 3,
+    "location_Cluster": 6,
     "sub_Cluster": 0,
-    "final_Cluster": 59
+    "final_Cluster": 23
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -10038,9 +10038,9 @@
       "기술·가정/제2외국어/한문/교양": 6,
       "국어": 13
     },
-    "location_Cluster": 23,
-    "sub_Cluster": 2,
-    "final_Cluster": 26
+    "location_Cluster": 12,
+    "sub_Cluster": 8,
+    "final_Cluster": 28
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -10115,9 +10115,9 @@
       "영어": 9,
       "체육": 5
     },
-    "location_Cluster": 15,
-    "sub_Cluster": 2,
-    "final_Cluster": 3
+    "location_Cluster": 17,
+    "sub_Cluster": 8,
+    "final_Cluster": 5
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -10245,9 +10245,9 @@
       "체육": 3,
       "한국사": 2
     },
-    "location_Cluster": 10,
-    "sub_Cluster": 1,
-    "final_Cluster": 5
+    "location_Cluster": 7,
+    "sub_Cluster": 2,
+    "final_Cluster": 7
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -10332,9 +10332,9 @@
       "기술·가정/제2외국어/한문/교양": 7,
       "사회(역사/도덕포함)": 8
     },
-    "location_Cluster": 10,
-    "sub_Cluster": 4,
-    "final_Cluster": 5
+    "location_Cluster": 7,
+    "sub_Cluster": 7,
+    "final_Cluster": 6
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -10417,9 +10417,9 @@
       "국어": 12,
       "수학": 14
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 4,
-    "final_Cluster": 43
+    "location_Cluster": 8,
+    "sub_Cluster": 0,
+    "final_Cluster": 21
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -10496,9 +10496,9 @@
       "한국사": 3,
       "체육": 4
     },
-    "location_Cluster": 23,
-    "sub_Cluster": 2,
-    "final_Cluster": 26
+    "location_Cluster": 12,
+    "sub_Cluster": 8,
+    "final_Cluster": 29
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -10635,9 +10635,9 @@
       "음식 조리": 7,
       "수학": 3
     },
-    "location_Cluster": 12,
-    "sub_Cluster": 3,
-    "final_Cluster": 41
+    "location_Cluster": 11,
+    "sub_Cluster": 6,
+    "final_Cluster": 30
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -10720,9 +10720,9 @@
       "수학": 15,
       "영어": 10
     },
-    "location_Cluster": 23,
-    "sub_Cluster": 2,
-    "final_Cluster": 26
+    "location_Cluster": 12,
+    "sub_Cluster": 8,
+    "final_Cluster": 28
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -10836,9 +10836,9 @@
       "화학 공업": 2,
       "재료": 5
     },
-    "location_Cluster": 25,
-    "sub_Cluster": 1,
-    "final_Cluster": 45
+    "location_Cluster": 3,
+    "sub_Cluster": 3,
+    "final_Cluster": 44
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -10908,9 +10908,9 @@
       "과학": 2,
       "체육": 2
     },
-    "location_Cluster": 12,
-    "sub_Cluster": 4,
-    "final_Cluster": 41
+    "location_Cluster": 11,
+    "sub_Cluster": 2,
+    "final_Cluster": 31
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -10987,8 +10987,8 @@
     "교원": {
       "학교자율과정": 75
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 4,
+    "location_Cluster": 14,
+    "sub_Cluster": 7,
     "final_Cluster": 25
   },
   {
@@ -11090,9 +11090,9 @@
       "정보·통신": 2,
       "수학": 4
     },
-    "location_Cluster": 4,
-    "sub_Cluster": 3,
-    "final_Cluster": 38
+    "location_Cluster": 3,
+    "sub_Cluster": 2,
+    "final_Cluster": 43
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -11163,9 +11163,9 @@
       "국제 계열": 11,
       "과학": 5
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 4,
-    "final_Cluster": 25
+    "location_Cluster": 14,
+    "sub_Cluster": 9,
+    "final_Cluster": 27
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -11263,8 +11263,8 @@
       "진로와 직업": 1,
       "수학": 3
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 3,
+    "location_Cluster": 15,
+    "sub_Cluster": 2,
     "final_Cluster": 12
   },
   {
@@ -11354,9 +11354,9 @@
       "기술·가정/제2외국어/한문/교양": 3,
       "경영·금융": 1
     },
-    "location_Cluster": 13,
-    "sub_Cluster": 1,
-    "final_Cluster": 35
+    "location_Cluster": 2,
+    "sub_Cluster": 6,
+    "final_Cluster": 37
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -11497,9 +11497,9 @@
       "보건·복지": 11,
       "디자인·문화 콘텐츠": 5
     },
-    "location_Cluster": 5,
-    "sub_Cluster": 3,
-    "final_Cluster": 20
+    "location_Cluster": 8,
+    "sub_Cluster": 2,
+    "final_Cluster": 19
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -11630,9 +11630,9 @@
       "경영·금융": 2,
       "기술·가정/제2외국어/한문/교양": 4
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 3,
-    "final_Cluster": 58
+    "location_Cluster": 10,
+    "sub_Cluster": 2,
+    "final_Cluster": 42
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -11708,9 +11708,9 @@
       "사회(역사/도덕포함)": 1,
       "경영·금융": 2
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 1,
-    "final_Cluster": 56
+    "location_Cluster": 10,
+    "sub_Cluster": 2,
+    "final_Cluster": 41
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -11787,9 +11787,9 @@
       "전기·전자": 20,
       "정보·통신": 9
     },
-    "location_Cluster": 26,
-    "sub_Cluster": 1,
-    "final_Cluster": 49
+    "location_Cluster": 19,
+    "sub_Cluster": 7,
+    "final_Cluster": 54
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -11923,9 +11923,9 @@
       "기술·가정/제2외국어/한문/교양": 5,
       "경영·금융": 8
     },
-    "location_Cluster": 21,
-    "sub_Cluster": 3,
-    "final_Cluster": 37
+    "location_Cluster": 3,
+    "sub_Cluster": 2,
+    "final_Cluster": 47
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -12022,9 +12022,9 @@
       "수학": 8,
       "사회(역사/도덕포함)": 7
     },
-    "location_Cluster": 4,
-    "sub_Cluster": 4,
-    "final_Cluster": 39
+    "location_Cluster": 3,
+    "sub_Cluster": 7,
+    "final_Cluster": 46
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -12134,9 +12134,9 @@
       "정보·통신": 3,
       "체육": 3
     },
-    "location_Cluster": 22,
-    "sub_Cluster": 3,
-    "final_Cluster": 44
+    "location_Cluster": 16,
+    "sub_Cluster": 6,
+    "final_Cluster": 48
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -12237,9 +12237,9 @@
       "체육": 2,
       "국어": 4
     },
-    "location_Cluster": 4,
-    "sub_Cluster": 4,
-    "final_Cluster": 38
+    "location_Cluster": 12,
+    "sub_Cluster": 7,
+    "final_Cluster": 28
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -12327,9 +12327,9 @@
       "국어": 8,
       "수학": 8
     },
-    "location_Cluster": 26,
-    "sub_Cluster": 4,
-    "final_Cluster": 49
+    "location_Cluster": 19,
+    "sub_Cluster": 0,
+    "final_Cluster": 54
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -12480,7 +12480,7 @@
       "식품 가공": 2
     },
     "location_Cluster": 1,
-    "sub_Cluster": 3,
+    "sub_Cluster": 2,
     "final_Cluster": 9
   },
   {
@@ -12588,8 +12588,8 @@
       "영어": 4,
       "한국사": 2
     },
-    "location_Cluster": 5,
-    "sub_Cluster": 1,
+    "location_Cluster": 8,
+    "sub_Cluster": 2,
     "final_Cluster": 19
   },
   {
@@ -12675,9 +12675,9 @@
       "국어": 11,
       "과학": 9
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 5,
-    "final_Cluster": 58
+    "location_Cluster": 10,
+    "sub_Cluster": 8,
+    "final_Cluster": 41
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -12755,9 +12755,9 @@
       "경영·금융": 27,
       "사회(역사/도덕포함)": 2
     },
-    "location_Cluster": 4,
-    "sub_Cluster": 3,
-    "final_Cluster": 39
+    "location_Cluster": 3,
+    "sub_Cluster": 2,
+    "final_Cluster": 43
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -12848,8 +12848,8 @@
       "과학": 1
     },
     "location_Cluster": 1,
-    "sub_Cluster": 3,
-    "final_Cluster": 7
+    "sub_Cluster": 2,
+    "final_Cluster": 8
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -12935,9 +12935,9 @@
       "예술 계열": 14,
       "사회(역사/도덕포함)": 5
     },
-    "location_Cluster": 3,
-    "sub_Cluster": 4,
-    "final_Cluster": 59
+    "location_Cluster": 6,
+    "sub_Cluster": 7,
+    "final_Cluster": 24
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -13016,9 +13016,9 @@
       "기술·가정/제2외국어/한문/교양": 5,
       "외국어 계열": 19
     },
-    "location_Cluster": 5,
-    "sub_Cluster": 4,
-    "final_Cluster": 19
+    "location_Cluster": 8,
+    "sub_Cluster": 1,
+    "final_Cluster": 21
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -13071,9 +13071,9 @@
       "경영·금융": 1,
       "과학": 1
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 3,
-    "final_Cluster": 57
+    "location_Cluster": 10,
+    "sub_Cluster": 2,
+    "final_Cluster": 41
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -13167,9 +13167,9 @@
       "정보·통신": 7,
       "선택": 6
     },
-    "location_Cluster": 17,
-    "sub_Cluster": 1,
-    "final_Cluster": 50
+    "location_Cluster": 4,
+    "sub_Cluster": 6,
+    "final_Cluster": 2
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -13286,9 +13286,9 @@
       "과학": 2,
       "사회(역사/도덕포함)": 2
     },
-    "location_Cluster": 18,
-    "sub_Cluster": 1,
-    "final_Cluster": 17
+    "location_Cluster": 9,
+    "sub_Cluster": 7,
+    "final_Cluster": 18
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -13411,9 +13411,9 @@
       "미용·관광·레저": 10,
       "디자인·문화 콘텐츠": 3
     },
-    "location_Cluster": 10,
-    "sub_Cluster": 3,
-    "final_Cluster": 6
+    "location_Cluster": 7,
+    "sub_Cluster": 2,
+    "final_Cluster": 7
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -13510,9 +13510,9 @@
       "보건·복지": 3,
       "디자인·문화 콘텐츠": 2
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 3,
-    "final_Cluster": 11
+    "location_Cluster": 15,
+    "sub_Cluster": 2,
+    "final_Cluster": 12
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -13600,9 +13600,9 @@
       "음식 조리": 3,
       "체육": 1
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 3,
-    "final_Cluster": 25
+    "location_Cluster": 14,
+    "sub_Cluster": 6,
+    "final_Cluster": 26
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -13681,9 +13681,9 @@
       "예술": 3,
       "기술·가정/제2외국어/한문/교양": 8
     },
-    "location_Cluster": 0,
+    "location_Cluster": 18,
     "sub_Cluster": 0,
-    "final_Cluster": 33
+    "final_Cluster": 55
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -13762,9 +13762,9 @@
       "예술": 2,
       "사회(역사/도덕포함)": 7
     },
-    "location_Cluster": 28,
-    "sub_Cluster": 2,
-    "final_Cluster": 61
+    "location_Cluster": 16,
+    "sub_Cluster": 8,
+    "final_Cluster": 49
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -13857,9 +13857,9 @@
       "수학": 9,
       "사회(역사/도덕포함)": 2
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 3,
-    "final_Cluster": 56
+    "location_Cluster": 10,
+    "sub_Cluster": 2,
+    "final_Cluster": 39
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -13944,9 +13944,9 @@
       "수학": 7,
       "국어": 7
     },
-    "location_Cluster": 10,
-    "sub_Cluster": 4,
-    "final_Cluster": 4
+    "location_Cluster": 7,
+    "sub_Cluster": 0,
+    "final_Cluster": 6
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -14024,8 +14024,8 @@
       "사회(역사/도덕포함)": 6
     },
     "location_Cluster": 1,
-    "sub_Cluster": 5,
-    "final_Cluster": 8
+    "sub_Cluster": 8,
+    "final_Cluster": 10
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -14100,9 +14100,9 @@
       "정보·통신": 8,
       "영어": 3
     },
-    "location_Cluster": 11,
-    "sub_Cluster": 3,
-    "final_Cluster": 47
+    "location_Cluster": 5,
+    "sub_Cluster": 2,
+    "final_Cluster": 52
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -14193,9 +14193,9 @@
       "수학": 10,
       "영어": 11
     },
-    "location_Cluster": 11,
-    "sub_Cluster": 4,
-    "final_Cluster": 47
+    "location_Cluster": 5,
+    "sub_Cluster": 0,
+    "final_Cluster": 52
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -14279,9 +14279,9 @@
       "수학": 13,
       "국어": 13
     },
-    "location_Cluster": 24,
-    "sub_Cluster": 2,
-    "final_Cluster": 53
+    "location_Cluster": 5,
+    "sub_Cluster": 8,
+    "final_Cluster": 52
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -14360,9 +14360,9 @@
       "사회(역사/도덕포함)": 1,
       "미용·관광·레저": 7
     },
-    "location_Cluster": 24,
-    "sub_Cluster": 3,
-    "final_Cluster": 53
+    "location_Cluster": 5,
+    "sub_Cluster": 2,
+    "final_Cluster": 52
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -14439,9 +14439,9 @@
       "예술": 2,
       "기술·가정/제2외국어/한문/교양": 2
     },
-    "location_Cluster": 18,
-    "sub_Cluster": 4,
-    "final_Cluster": 18
+    "location_Cluster": 9,
+    "sub_Cluster": 7,
+    "final_Cluster": 17
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -14515,8 +14515,8 @@
       "체육": 5,
       "한국사": 3
     },
-    "location_Cluster": 25,
-    "sub_Cluster": 0,
+    "location_Cluster": 3,
+    "sub_Cluster": 8,
     "final_Cluster": 45
   },
   {
@@ -14592,9 +14592,9 @@
       "국어": 7,
       "한국사": 1
     },
-    "location_Cluster": 10,
-    "sub_Cluster": 5,
-    "final_Cluster": 4
+    "location_Cluster": 7,
+    "sub_Cluster": 8,
+    "final_Cluster": 6
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -14673,9 +14673,9 @@
       "선택": 2,
       "기술·가정/제2외국어/한문/교양": 3
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 0,
-    "final_Cluster": 29
+    "location_Cluster": 0,
+    "sub_Cluster": 8,
+    "final_Cluster": 35
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -14806,9 +14806,9 @@
       "체육": 3,
       "예술": 2
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 1,
-    "final_Cluster": 29
+    "location_Cluster": 0,
+    "sub_Cluster": 6,
+    "final_Cluster": 34
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -14896,9 +14896,9 @@
       "수학": 2,
       "사회(역사/도덕포함)": 2
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 3,
-    "final_Cluster": 24
+    "location_Cluster": 14,
+    "sub_Cluster": 6,
+    "final_Cluster": 26
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -14980,9 +14980,9 @@
       "선택": 3,
       "기술·가정/제2외국어/한문/교양": 5
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 2,
-    "final_Cluster": 30
+    "location_Cluster": 0,
+    "sub_Cluster": 0,
+    "final_Cluster": 33
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -15066,9 +15066,9 @@
       "전기·전자": 5,
       "체육": 1
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 1,
-    "final_Cluster": 30
+    "location_Cluster": 0,
+    "sub_Cluster": 2,
+    "final_Cluster": 35
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -15149,9 +15149,9 @@
       "국어": 6,
       "수학": 9
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 5,
-    "final_Cluster": 24
+    "location_Cluster": 14,
+    "sub_Cluster": 0,
+    "final_Cluster": 25
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -15257,9 +15257,9 @@
       "사회(역사/도덕포함)": 7,
       "과학": 7
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 5,
-    "final_Cluster": 57
+    "location_Cluster": 10,
+    "sub_Cluster": 0,
+    "final_Cluster": 39
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -15337,9 +15337,9 @@
       "예술": 4,
       "영어": 5
     },
-    "location_Cluster": 13,
-    "sub_Cluster": 3,
-    "final_Cluster": 34
+    "location_Cluster": 2,
+    "sub_Cluster": 2,
+    "final_Cluster": 36
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -15450,9 +15450,9 @@
       "과학": 2,
       "국어": 3
     },
-    "location_Cluster": 28,
-    "sub_Cluster": 3,
-    "final_Cluster": 61
+    "location_Cluster": 16,
+    "sub_Cluster": 6,
+    "final_Cluster": 49
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -15537,9 +15537,9 @@
       "국어": 6,
       "과학": 2
     },
-    "location_Cluster": 11,
-    "sub_Cluster": 1,
-    "final_Cluster": 46
+    "location_Cluster": 5,
+    "sub_Cluster": 2,
+    "final_Cluster": 50
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -15604,9 +15604,9 @@
       "과학 계열": 22,
       "영어": 5
     },
-    "location_Cluster": 12,
-    "sub_Cluster": 4,
-    "final_Cluster": 41
+    "location_Cluster": 11,
+    "sub_Cluster": 0,
+    "final_Cluster": 31
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -15704,9 +15704,9 @@
       "체육": 7,
       "한국사": 3
     },
-    "location_Cluster": 1,
+    "location_Cluster": 15,
     "sub_Cluster": 0,
-    "final_Cluster": 9
+    "final_Cluster": 14
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -15796,9 +15796,9 @@
       "사회(역사/도덕포함)": 7,
       "과학": 16
     },
-    "location_Cluster": 19,
-    "sub_Cluster": 2,
-    "final_Cluster": 54
+    "location_Cluster": 12,
+    "sub_Cluster": 7,
+    "final_Cluster": 29
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -15872,9 +15872,9 @@
       "예술": 2,
       "기술·가정/제2외국어/한문/교양": 10
     },
-    "location_Cluster": 19,
-    "sub_Cluster": 2,
-    "final_Cluster": 54
+    "location_Cluster": 12,
+    "sub_Cluster": 0,
+    "final_Cluster": 29
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -15958,9 +15958,9 @@
       "과학": 7,
       "체육": 5
     },
-    "location_Cluster": 20,
-    "sub_Cluster": 5,
-    "final_Cluster": 52
+    "location_Cluster": 18,
+    "sub_Cluster": 4,
+    "final_Cluster": 56
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -16061,9 +16061,9 @@
       "한국사": 1,
       "미용·관광·레저": 4
     },
-    "location_Cluster": 20,
-    "sub_Cluster": 3,
-    "final_Cluster": 52
+    "location_Cluster": 18,
+    "sub_Cluster": 6,
+    "final_Cluster": 57
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -16156,9 +16156,9 @@
       "체육": 3,
       "예술": 4
     },
-    "location_Cluster": 20,
-    "sub_Cluster": 4,
-    "final_Cluster": 52
+    "location_Cluster": 18,
+    "sub_Cluster": 0,
+    "final_Cluster": 57
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -16243,9 +16243,9 @@
       "영어": 8,
       "한국사": 2
     },
-    "location_Cluster": 25,
+    "location_Cluster": 3,
     "sub_Cluster": 0,
-    "final_Cluster": 45
+    "final_Cluster": 43
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -16332,9 +16332,9 @@
       "영어": 6,
       "한국사": 2
     },
-    "location_Cluster": 26,
-    "sub_Cluster": 1,
-    "final_Cluster": 48
+    "location_Cluster": 19,
+    "sub_Cluster": 2,
+    "final_Cluster": 53
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -16406,9 +16406,9 @@
       "예술": 3,
       "기술·가정/제2외국어/한문/교양": 6
     },
-    "location_Cluster": 22,
-    "sub_Cluster": 0,
-    "final_Cluster": 44
+    "location_Cluster": 16,
+    "sub_Cluster": 8,
+    "final_Cluster": 48
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -16488,9 +16488,9 @@
       "과학": 6,
       "사회(역사/도덕포함)": 7
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 2,
-    "final_Cluster": 12
+    "location_Cluster": 15,
+    "sub_Cluster": 0,
+    "final_Cluster": 14
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -16568,8 +16568,8 @@
       "한국사": 3,
       "사회(역사/도덕포함)": 9
     },
-    "location_Cluster": 6,
-    "sub_Cluster": 4,
+    "location_Cluster": 13,
+    "sub_Cluster": 7,
     "final_Cluster": 15
   },
   {
@@ -16659,9 +16659,9 @@
       "과학": 8,
       "체육": 2
     },
-    "location_Cluster": 14,
+    "location_Cluster": 10,
     "sub_Cluster": 0,
-    "final_Cluster": 58
+    "final_Cluster": 42
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -16749,9 +16749,9 @@
       "사회(역사/도덕포함)": 10,
       "과학": 12
     },
-    "location_Cluster": 24,
-    "sub_Cluster": 2,
-    "final_Cluster": 53
+    "location_Cluster": 17,
+    "sub_Cluster": 8,
+    "final_Cluster": 4
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -16826,9 +16826,9 @@
       "예술": 3,
       "기술·가정/제2외국어/한문/교양": 7
     },
-    "location_Cluster": 25,
-    "sub_Cluster": 5,
-    "final_Cluster": 45
+    "location_Cluster": 3,
+    "sub_Cluster": 0,
+    "final_Cluster": 44
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -16916,9 +16916,9 @@
       "예술": 3,
       "기술·가정/제2외국어/한문/교양": 4
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 5,
-    "final_Cluster": 57
+    "location_Cluster": 10,
+    "sub_Cluster": 0,
+    "final_Cluster": 41
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -17004,9 +17004,9 @@
       "진로와 직업": 1,
       "선택": 3
     },
-    "location_Cluster": 11,
-    "sub_Cluster": 5,
-    "final_Cluster": 47
+    "location_Cluster": 5,
+    "sub_Cluster": 0,
+    "final_Cluster": 51
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -17083,9 +17083,9 @@
       "예술": 2,
       "기술·가정/제2외국어/한문/교양": 5
     },
-    "location_Cluster": 29,
-    "sub_Cluster": 2,
-    "final_Cluster": 27
+    "location_Cluster": 1,
+    "sub_Cluster": 8,
+    "final_Cluster": 8
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -17168,9 +17168,9 @@
       "기술·가정/제2외국어/한문/교양": 7,
       "선택": 3
     },
-    "location_Cluster": 21,
-    "sub_Cluster": 2,
-    "final_Cluster": 36
+    "location_Cluster": 3,
+    "sub_Cluster": 8,
+    "final_Cluster": 43
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -17260,8 +17260,8 @@
       "수학": 12
     },
     "location_Cluster": 1,
-    "sub_Cluster": 0,
-    "final_Cluster": 7
+    "sub_Cluster": 8,
+    "final_Cluster": 10
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -17338,8 +17338,8 @@
       "국어": 6
     },
     "location_Cluster": 1,
-    "sub_Cluster": 2,
-    "final_Cluster": 7
+    "sub_Cluster": 8,
+    "final_Cluster": 10
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -17415,9 +17415,9 @@
       "예술": 5,
       "기술·가정/제2외국어/한문/교양": 6
     },
-    "location_Cluster": 13,
-    "sub_Cluster": 4,
-    "final_Cluster": 34
+    "location_Cluster": 2,
+    "sub_Cluster": 0,
+    "final_Cluster": 38
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -17546,9 +17546,9 @@
       "사회(역사/도덕포함)": 1,
       "기술·가정/제2외국어/한문/교양": 3
     },
-    "location_Cluster": 24,
-    "sub_Cluster": 1,
-    "final_Cluster": 53
+    "location_Cluster": 5,
+    "sub_Cluster": 2,
+    "final_Cluster": 52
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -17637,9 +17637,9 @@
       "예술": 2,
       "사회(역사/도덕포함)": 8
     },
-    "location_Cluster": 20,
-    "sub_Cluster": 0,
-    "final_Cluster": 51
+    "location_Cluster": 18,
+    "sub_Cluster": 8,
+    "final_Cluster": 57
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -17725,9 +17725,9 @@
       "과학": 7,
       "한국사": 3
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 0,
-    "final_Cluster": 31
+    "location_Cluster": 0,
+    "sub_Cluster": 8,
+    "final_Cluster": 35
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -17813,8 +17813,8 @@
       "기술·가정/제2외국어/한문/교양": 7,
       "과학": 11
     },
-    "location_Cluster": 6,
-    "sub_Cluster": 0,
+    "location_Cluster": 13,
+    "sub_Cluster": 8,
     "final_Cluster": 15
   },
   {
@@ -17896,8 +17896,8 @@
       "예술": 3
     },
     "location_Cluster": 1,
-    "sub_Cluster": 0,
-    "final_Cluster": 8
+    "sub_Cluster": 8,
+    "final_Cluster": 10
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -17976,9 +17976,9 @@
       "기술·가정/제2외국어/한문/교양": 5,
       "선택": 1
     },
-    "location_Cluster": 12,
-    "sub_Cluster": 5,
-    "final_Cluster": 41
+    "location_Cluster": 11,
+    "sub_Cluster": 8,
+    "final_Cluster": 31
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -18065,8 +18065,8 @@
       "영어": 8,
       "한국사": 2
     },
-    "location_Cluster": 6,
-    "sub_Cluster": 0,
+    "location_Cluster": 13,
+    "sub_Cluster": 8,
     "final_Cluster": 15
   },
   {
@@ -18155,9 +18155,9 @@
       "기술·가정/제2외국어/한문/교양": 6,
       "선택": 3
     },
-    "location_Cluster": 25,
-    "sub_Cluster": 0,
-    "final_Cluster": 45
+    "location_Cluster": 10,
+    "sub_Cluster": 8,
+    "final_Cluster": 39
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -18252,9 +18252,9 @@
       "기술·가정/제2외국어/한문/교양": 4,
       "선택": 1
     },
-    "location_Cluster": 25,
-    "sub_Cluster": 4,
-    "final_Cluster": 45
+    "location_Cluster": 10,
+    "sub_Cluster": 7,
+    "final_Cluster": 42
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -18338,9 +18338,9 @@
       "한국사": 2,
       "사회(역사/도덕포함)": 8
     },
-    "location_Cluster": 5,
-    "sub_Cluster": 5,
-    "final_Cluster": 20
+    "location_Cluster": 2,
+    "sub_Cluster": 4,
+    "final_Cluster": 37
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -18418,9 +18418,9 @@
       "디자인·문화 콘텐츠": 1,
       "미용·관광·레저": 5
     },
-    "location_Cluster": 5,
-    "sub_Cluster": 3,
-    "final_Cluster": 20
+    "location_Cluster": 2,
+    "sub_Cluster": 2,
+    "final_Cluster": 38
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -18491,9 +18491,9 @@
       "국어": 11,
       "수학": 13
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 2,
-    "final_Cluster": 31
+    "location_Cluster": 0,
+    "sub_Cluster": 8,
+    "final_Cluster": 34
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -18594,9 +18594,9 @@
       "예술": 4,
       "기술·가정/제2외국어/한문/교양": 7
     },
-    "location_Cluster": 2,
-    "sub_Cluster": 0,
-    "final_Cluster": 1
+    "location_Cluster": 4,
+    "sub_Cluster": 8,
+    "final_Cluster": 3
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -18677,8 +18677,8 @@
       "기술·가정/제2외국어/한문/교양": 5,
       "보건·복지": 1
     },
-    "location_Cluster": 25,
-    "sub_Cluster": 0,
+    "location_Cluster": 3,
+    "sub_Cluster": 8,
     "final_Cluster": 45
   },
   {
@@ -18784,9 +18784,9 @@
       "체육": 2,
       "예술": 2
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 1,
-    "final_Cluster": 10
+    "location_Cluster": 15,
+    "sub_Cluster": 2,
+    "final_Cluster": 11
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -18858,9 +18858,9 @@
       "예술": 2,
       "기술·가정/제2외국어/한문/교양": 5
     },
-    "location_Cluster": 4,
-    "sub_Cluster": 5,
-    "final_Cluster": 39
+    "location_Cluster": 3,
+    "sub_Cluster": 4,
+    "final_Cluster": 44
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -18967,9 +18967,9 @@
       "수학": 3,
       "예술": 1
     },
-    "location_Cluster": 4,
-    "sub_Cluster": 3,
-    "final_Cluster": 39
+    "location_Cluster": 3,
+    "sub_Cluster": 2,
+    "final_Cluster": 46
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -19087,9 +19087,9 @@
       "체육": 2,
       "디자인·문화 콘텐츠": 5
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 3,
-    "final_Cluster": 42
+    "location_Cluster": 8,
+    "sub_Cluster": 2,
+    "final_Cluster": 19
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -19165,7 +19165,7 @@
       "과학": 6,
       "체육": 3
     },
-    "location_Cluster": 25,
+    "location_Cluster": 3,
     "sub_Cluster": 0,
     "final_Cluster": 45
   },
@@ -19251,9 +19251,9 @@
       "과학": 8,
       "체육": 4
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 2,
-    "final_Cluster": 43
+    "location_Cluster": 8,
+    "sub_Cluster": 8,
+    "final_Cluster": 21
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -19355,8 +19355,8 @@
       "기술·가정/제2외국어/한문/교양": 7
     },
     "location_Cluster": 1,
-    "sub_Cluster": 4,
-    "final_Cluster": 9
+    "sub_Cluster": 0,
+    "final_Cluster": 10
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -19455,9 +19455,9 @@
       "체육": 4,
       "예술": 5
     },
-    "location_Cluster": 2,
-    "sub_Cluster": 2,
-    "final_Cluster": 1
+    "location_Cluster": 4,
+    "sub_Cluster": 7,
+    "final_Cluster": 3
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -19539,9 +19539,9 @@
       "체육 계열": 1,
       "선택": 1
     },
-    "location_Cluster": 13,
+    "location_Cluster": 2,
     "sub_Cluster": 0,
-    "final_Cluster": 34
+    "final_Cluster": 38
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -19636,9 +19636,9 @@
       "인쇄·출판·공예": 5,
       "체육": 1
     },
-    "location_Cluster": 12,
-    "sub_Cluster": 3,
-    "final_Cluster": 40
+    "location_Cluster": 11,
+    "sub_Cluster": 2,
+    "final_Cluster": 31
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -19719,9 +19719,9 @@
       "예술": 2,
       "영어": 4
     },
-    "location_Cluster": 11,
-    "sub_Cluster": 3,
-    "final_Cluster": 47
+    "location_Cluster": 5,
+    "sub_Cluster": 2,
+    "final_Cluster": 50
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -19807,9 +19807,9 @@
       "진로와 직업": 1,
       "국어": 10
     },
-    "location_Cluster": 11,
-    "sub_Cluster": 5,
-    "final_Cluster": 47
+    "location_Cluster": 5,
+    "sub_Cluster": 4,
+    "final_Cluster": 52
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -19885,9 +19885,9 @@
       "예술": 6,
       "기술·가정/제2외국어/한문/교양": 5
     },
-    "location_Cluster": 17,
-    "sub_Cluster": 0,
-    "final_Cluster": 50
+    "location_Cluster": 4,
+    "sub_Cluster": 8,
+    "final_Cluster": 1
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -19975,9 +19975,9 @@
       "예술": 2,
       "기술·가정/제2외국어/한문/교양": 4
     },
-    "location_Cluster": 12,
-    "sub_Cluster": 0,
-    "final_Cluster": 40
+    "location_Cluster": 11,
+    "sub_Cluster": 8,
+    "final_Cluster": 30
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -20059,9 +20059,9 @@
       "예술": 2,
       "기술·가정/제2외국어/한문/교양": 5
     },
-    "location_Cluster": 19,
-    "sub_Cluster": 0,
-    "final_Cluster": 55
+    "location_Cluster": 12,
+    "sub_Cluster": 8,
+    "final_Cluster": 29
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -20146,9 +20146,9 @@
       "한국사": 3,
       "과학": 10
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 0,
-    "final_Cluster": 24
+    "location_Cluster": 14,
+    "sub_Cluster": 8,
+    "final_Cluster": 26
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -20233,9 +20233,9 @@
       "국어": 10,
       "선택": 3
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 0,
-    "final_Cluster": 58
+    "location_Cluster": 10,
+    "sub_Cluster": 4,
+    "final_Cluster": 40
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -20350,9 +20350,9 @@
       "사회(역사/도덕포함)": 2,
       "과학": 2
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 1,
-    "final_Cluster": 56
+    "location_Cluster": 10,
+    "sub_Cluster": 6,
+    "final_Cluster": 39
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -20438,9 +20438,9 @@
       "선택": 1,
       "영어": 9
     },
-    "location_Cluster": 22,
-    "sub_Cluster": 2,
-    "final_Cluster": 44
+    "location_Cluster": 16,
+    "sub_Cluster": 0,
+    "final_Cluster": 48
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -20529,9 +20529,9 @@
       "한국사": 3,
       "사회(역사/도덕포함)": 5
     },
-    "location_Cluster": 12,
-    "sub_Cluster": 0,
-    "final_Cluster": 40
+    "location_Cluster": 11,
+    "sub_Cluster": 8,
+    "final_Cluster": 30
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -20625,9 +20625,9 @@
       "영어": 7,
       "선택": 5
     },
-    "location_Cluster": 20,
-    "sub_Cluster": 4,
-    "final_Cluster": 51
+    "location_Cluster": 18,
+    "sub_Cluster": 7,
+    "final_Cluster": 57
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -20708,9 +20708,9 @@
       "체육": 3,
       "과학": 9
     },
-    "location_Cluster": 5,
-    "sub_Cluster": 2,
-    "final_Cluster": 20
+    "location_Cluster": 2,
+    "sub_Cluster": 0,
+    "final_Cluster": 38
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -20807,9 +20807,9 @@
       "국어": 2,
       "디자인·문화 콘텐츠": 3
     },
-    "location_Cluster": 12,
-    "sub_Cluster": 1,
-    "final_Cluster": 40
+    "location_Cluster": 11,
+    "sub_Cluster": 6,
+    "final_Cluster": 30
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -20888,8 +20888,8 @@
       "기술·가정/제2외국어/한문/교양": 4,
       "예술": 2
     },
-    "location_Cluster": 6,
-    "sub_Cluster": 4,
+    "location_Cluster": 13,
+    "sub_Cluster": 0,
     "final_Cluster": 15
   },
   {
@@ -20978,9 +20978,9 @@
       "수학": 7,
       "예술": 3
     },
-    "location_Cluster": 24,
-    "sub_Cluster": 4,
-    "final_Cluster": 53
+    "location_Cluster": 5,
+    "sub_Cluster": 7,
+    "final_Cluster": 50
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -21074,9 +21074,9 @@
       "디자인·문화 콘텐츠": 5,
       "음식 조리": 7
     },
-    "location_Cluster": 11,
-    "sub_Cluster": 1,
-    "final_Cluster": 46
+    "location_Cluster": 5,
+    "sub_Cluster": 2,
+    "final_Cluster": 51
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -21141,8 +21141,8 @@
       "영어": 12,
       "예술": 5
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 2,
+    "location_Cluster": 6,
+    "sub_Cluster": 8,
     "final_Cluster": 22
   },
   {
@@ -21234,9 +21234,9 @@
       "영어": 3,
       "경영·금융": 15
     },
-    "location_Cluster": 20,
-    "sub_Cluster": 3,
-    "final_Cluster": 52
+    "location_Cluster": 18,
+    "sub_Cluster": 2,
+    "final_Cluster": 57
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -21313,9 +21313,9 @@
       "수학": 14,
       "영어": 9
     },
-    "location_Cluster": 15,
-    "sub_Cluster": 0,
-    "final_Cluster": 3
+    "location_Cluster": 17,
+    "sub_Cluster": 8,
+    "final_Cluster": 5
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -21389,9 +21389,9 @@
       "기술·가정/제2외국어/한문/교양": 3,
       "외국어 계열": 16
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 4,
-    "final_Cluster": 21
+    "location_Cluster": 6,
+    "sub_Cluster": 5,
+    "final_Cluster": 22
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -21532,9 +21532,9 @@
       "기계": 16,
       "예술": 2
     },
-    "location_Cluster": 5,
-    "sub_Cluster": 1,
-    "final_Cluster": 20
+    "location_Cluster": 2,
+    "sub_Cluster": 2,
+    "final_Cluster": 37
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -21611,8 +21611,8 @@
       "한국사": 3,
       "영어": 7
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 2,
+    "location_Cluster": 6,
+    "sub_Cluster": 0,
     "final_Cluster": 22
   },
   {
@@ -21690,9 +21690,9 @@
       "수학": 6,
       "사회(역사/도덕포함)": 7
     },
-    "location_Cluster": 4,
-    "sub_Cluster": 0,
-    "final_Cluster": 38
+    "location_Cluster": 12,
+    "sub_Cluster": 8,
+    "final_Cluster": 29
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -21771,9 +21771,9 @@
       "경영·금융": 22,
       "디자인·문화 콘텐츠": 5
     },
-    "location_Cluster": 2,
-    "sub_Cluster": 3,
-    "final_Cluster": 2
+    "location_Cluster": 4,
+    "sub_Cluster": 2,
+    "final_Cluster": 3
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -21862,9 +21862,9 @@
       "기술·가정/제2외국어/한문/교양": 7,
       "수학": 11
     },
-    "location_Cluster": 18,
-    "sub_Cluster": 0,
-    "final_Cluster": 17
+    "location_Cluster": 9,
+    "sub_Cluster": 8,
+    "final_Cluster": 18
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -21948,9 +21948,9 @@
       "수학": 8,
       "국어": 8
     },
-    "location_Cluster": 28,
-    "sub_Cluster": 2,
-    "final_Cluster": 60
+    "location_Cluster": 16,
+    "sub_Cluster": 0,
+    "final_Cluster": 49
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22031,9 +22031,9 @@
       "체육": 5,
       "영어": 8
     },
-    "location_Cluster": 2,
-    "sub_Cluster": 0,
-    "final_Cluster": 1
+    "location_Cluster": 19,
+    "sub_Cluster": 8,
+    "final_Cluster": 53
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22110,9 +22110,9 @@
       "국어": 9,
       "영어": 7
     },
-    "location_Cluster": 2,
-    "sub_Cluster": 0,
-    "final_Cluster": 1
+    "location_Cluster": 4,
+    "sub_Cluster": 8,
+    "final_Cluster": 3
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22194,9 +22194,9 @@
       "수학": 12,
       "국어": 10
     },
-    "location_Cluster": 2,
-    "sub_Cluster": 0,
-    "final_Cluster": 2
+    "location_Cluster": 4,
+    "sub_Cluster": 8,
+    "final_Cluster": 3
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22286,9 +22286,9 @@
       "사회(역사/도덕포함)": 7,
       "수학": 6
     },
-    "location_Cluster": 26,
-    "sub_Cluster": 5,
-    "final_Cluster": 48
+    "location_Cluster": 19,
+    "sub_Cluster": 8,
+    "final_Cluster": 53
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22362,9 +22362,9 @@
       "수학": 5,
       "사회(역사/도덕포함)": 6
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 0,
-    "final_Cluster": 30
+    "location_Cluster": 0,
+    "sub_Cluster": 8,
+    "final_Cluster": 34
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22447,9 +22447,9 @@
       "영어": 12,
       "한국사": 2
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 0,
-    "final_Cluster": 43
+    "location_Cluster": 8,
+    "sub_Cluster": 8,
+    "final_Cluster": 21
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22546,9 +22546,9 @@
       "체육": 5,
       "과학": 10
     },
-    "location_Cluster": 26,
+    "location_Cluster": 19,
     "sub_Cluster": 0,
-    "final_Cluster": 48
+    "final_Cluster": 53
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22635,9 +22635,9 @@
       "수학": 11,
       "사회(역사/도덕포함)": 8
     },
-    "location_Cluster": 28,
+    "location_Cluster": 16,
     "sub_Cluster": 0,
-    "final_Cluster": 60
+    "final_Cluster": 49
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22729,9 +22729,9 @@
       "선택": 3,
       "체육": 5
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 4,
-    "final_Cluster": 56
+    "location_Cluster": 12,
+    "sub_Cluster": 0,
+    "final_Cluster": 29
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22809,9 +22809,9 @@
       "사회": 1,
       "기술·가정/제2외국어/한문/교양": 6
     },
-    "location_Cluster": 26,
-    "sub_Cluster": 5,
-    "final_Cluster": 48
+    "location_Cluster": 19,
+    "sub_Cluster": 8,
+    "final_Cluster": 54
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22891,9 +22891,9 @@
       "영어": 8,
       "수학": 13
     },
-    "location_Cluster": 26,
-    "sub_Cluster": 4,
-    "final_Cluster": 49
+    "location_Cluster": 19,
+    "sub_Cluster": 0,
+    "final_Cluster": 54
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -22963,9 +22963,9 @@
       "과학": 12,
       "체육": 4
     },
-    "location_Cluster": 9,
+    "location_Cluster": 6,
     "sub_Cluster": 0,
-    "final_Cluster": 21
+    "final_Cluster": 24
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -23018,9 +23018,9 @@
       "수학": 12,
       "사회(역사/도덕포함)": 9
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 5,
-    "final_Cluster": 31
+    "location_Cluster": 0,
+    "sub_Cluster": 4,
+    "final_Cluster": 34
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -23093,9 +23093,9 @@
       "체육": 3,
       "예술": 3
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 5,
-    "final_Cluster": 22
+    "location_Cluster": 10,
+    "sub_Cluster": 4,
+    "final_Cluster": 40
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -23173,9 +23173,9 @@
       "예술": 3,
       "수학": 6
     },
-    "location_Cluster": 20,
-    "sub_Cluster": 0,
-    "final_Cluster": 51
+    "location_Cluster": 18,
+    "sub_Cluster": 8,
+    "final_Cluster": 56
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -23259,9 +23259,9 @@
       "체육": 4,
       "한국사": 2
     },
-    "location_Cluster": 11,
+    "location_Cluster": 5,
     "sub_Cluster": 0,
-    "final_Cluster": 46
+    "final_Cluster": 51
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -23341,9 +23341,9 @@
       "예술": 4,
       "기술·가정/제2외국어/한문/교양": 7
     },
-    "location_Cluster": 29,
-    "sub_Cluster": 0,
-    "final_Cluster": 27
+    "location_Cluster": 1,
+    "sub_Cluster": 8,
+    "final_Cluster": 9
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -23423,8 +23423,8 @@
       "기술·가정/제2외국어/한문/교양": 4,
       "국어": 9
     },
-    "location_Cluster": 6,
-    "sub_Cluster": 5,
+    "location_Cluster": 13,
+    "sub_Cluster": 8,
     "final_Cluster": 16
   },
   {
@@ -23517,7 +23517,7 @@
       "기술·가정/제2외국어/한문/교양": 5,
       "사회(역사/도덕포함)": 7
     },
-    "location_Cluster": 2,
+    "location_Cluster": 4,
     "sub_Cluster": 0,
     "final_Cluster": 2
   },
@@ -23603,9 +23603,9 @@
       "과학": 13,
       "영어": 12
     },
-    "location_Cluster": 28,
-    "sub_Cluster": 0,
-    "final_Cluster": 60
+    "location_Cluster": 16,
+    "sub_Cluster": 8,
+    "final_Cluster": 49
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -23684,9 +23684,9 @@
       "영어": 11,
       "국어": 11
     },
-    "location_Cluster": 13,
-    "sub_Cluster": 5,
-    "final_Cluster": 34
+    "location_Cluster": 2,
+    "sub_Cluster": 0,
+    "final_Cluster": 36
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -23766,9 +23766,9 @@
       "선택": 3,
       "과학": 9
     },
-    "location_Cluster": 19,
-    "sub_Cluster": 0,
-    "final_Cluster": 54
+    "location_Cluster": 0,
+    "sub_Cluster": 8,
+    "final_Cluster": 35
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -23861,9 +23861,9 @@
       "기술·가정/제2외국어/한문/교양": 4,
       "수학": 9
     },
-    "location_Cluster": 0,
-    "sub_Cluster": 0,
-    "final_Cluster": 33
+    "location_Cluster": 2,
+    "sub_Cluster": 8,
+    "final_Cluster": 36
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -23957,9 +23957,9 @@
       "과학": 13,
       "체육": 6
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 2,
-    "final_Cluster": 42
+    "location_Cluster": 8,
+    "sub_Cluster": 8,
+    "final_Cluster": 20
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -24050,9 +24050,9 @@
       "과학": 9,
       "기술·가정/제2외국어/한문/교양": 8
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 0,
-    "final_Cluster": 42
+    "location_Cluster": 8,
+    "sub_Cluster": 8,
+    "final_Cluster": 20
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -24128,9 +24128,9 @@
       "사회(역사/도덕포함)": 11,
       "한국사": 3
     },
-    "location_Cluster": 24,
-    "sub_Cluster": 2,
-    "final_Cluster": 53
+    "location_Cluster": 17,
+    "sub_Cluster": 8,
+    "final_Cluster": 4
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -24227,9 +24227,9 @@
       "한국사": 2,
       "사회(역사/도덕포함)": 8
     },
-    "location_Cluster": 20,
-    "sub_Cluster": 2,
-    "final_Cluster": 51
+    "location_Cluster": 18,
+    "sub_Cluster": 7,
+    "final_Cluster": 55
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -24339,9 +24339,9 @@
       "수학": 11,
       "영어": 9
     },
-    "location_Cluster": 26,
-    "sub_Cluster": 2,
-    "final_Cluster": 49
+    "location_Cluster": 19,
+    "sub_Cluster": 7,
+    "final_Cluster": 54
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -24447,9 +24447,9 @@
       "기술·가정/제2외국어/한문/교양": 7,
       "사회(역사/도덕포함)": 5
     },
-    "location_Cluster": 11,
-    "sub_Cluster": 4,
-    "final_Cluster": 46
+    "location_Cluster": 5,
+    "sub_Cluster": 7,
+    "final_Cluster": 50
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -24543,7 +24543,7 @@
       "한국사": 1
     },
     "location_Cluster": 1,
-    "sub_Cluster": 4,
+    "sub_Cluster": 7,
     "final_Cluster": 8
   },
   {
@@ -24630,8 +24630,8 @@
       "사회(역사/도덕포함)": 2
     },
     "location_Cluster": 1,
-    "sub_Cluster": 3,
-    "final_Cluster": 8
+    "sub_Cluster": 2,
+    "final_Cluster": 10
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -24703,8 +24703,8 @@
       "한국사": 1
     },
     "location_Cluster": 1,
-    "sub_Cluster": 5,
-    "final_Cluster": 7
+    "sub_Cluster": 7,
+    "final_Cluster": 8
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -24789,9 +24789,9 @@
       "국어": 6,
       "수학": 7
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 4,
-    "final_Cluster": 43
+    "location_Cluster": 8,
+    "sub_Cluster": 0,
+    "final_Cluster": 20
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -24889,8 +24889,8 @@
       "기술·가정/제2외국어/한문/교양": 10,
       "사회(역사/도덕포함)": 7
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 4,
+    "location_Cluster": 15,
+    "sub_Cluster": 0,
     "final_Cluster": 11
   },
   {
@@ -24970,9 +24970,9 @@
       "체육": 3,
       "예술": 2
     },
-    "location_Cluster": 14,
+    "location_Cluster": 10,
     "sub_Cluster": 0,
-    "final_Cluster": 57
+    "final_Cluster": 40
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -25029,8 +25029,8 @@
       "기술·가정/제2외국어/한문/교양": 4,
       "사회(역사/도덕포함)": 3
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 4,
+    "location_Cluster": 6,
+    "sub_Cluster": 0,
     "final_Cluster": 22
   },
   {
@@ -25109,8 +25109,8 @@
       "한국사": 2,
       "영어": 8
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 0,
+    "location_Cluster": 14,
+    "sub_Cluster": 8,
     "final_Cluster": 25
   },
   {
@@ -25178,9 +25178,9 @@
       "정보·통신": 12,
       "체육": 2
     },
-    "location_Cluster": 14,
-    "sub_Cluster": 1,
-    "final_Cluster": 58
+    "location_Cluster": 10,
+    "sub_Cluster": 2,
+    "final_Cluster": 40
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -25293,9 +25293,9 @@
       "국어": 4,
       "기계": 16
     },
-    "location_Cluster": 9,
-    "sub_Cluster": 1,
-    "final_Cluster": 23
+    "location_Cluster": 6,
+    "sub_Cluster": 2,
+    "final_Cluster": 24
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -25378,9 +25378,9 @@
       "영어": 9,
       "과학": 12
     },
-    "location_Cluster": 27,
-    "sub_Cluster": 6,
-    "final_Cluster": 30
+    "location_Cluster": 0,
+    "sub_Cluster": 8,
+    "final_Cluster": 34
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -25467,9 +25467,9 @@
       "수학": 12,
       "국어": 12
     },
-    "location_Cluster": 10,
-    "sub_Cluster": 0,
-    "final_Cluster": 4
+    "location_Cluster": 7,
+    "sub_Cluster": 8,
+    "final_Cluster": 7
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -25560,9 +25560,9 @@
       "기술·가정/제2외국어/한문/교양": 7,
       "외국어 계열": 18
     },
-    "location_Cluster": 10,
-    "sub_Cluster": 4,
-    "final_Cluster": 4
+    "location_Cluster": 7,
+    "sub_Cluster": 5,
+    "final_Cluster": 7
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -25633,9 +25633,9 @@
       "과학": 1,
       "국어": 4
     },
-    "location_Cluster": 0,
-    "sub_Cluster": 3,
-    "final_Cluster": 33
+    "location_Cluster": 18,
+    "sub_Cluster": 2,
+    "final_Cluster": 55
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -25731,9 +25731,9 @@
       "한국사": 2,
       "기술·가정/제2외국어/한문/교양": 6
     },
-    "location_Cluster": 0,
-    "sub_Cluster": 0,
-    "final_Cluster": 32
+    "location_Cluster": 18,
+    "sub_Cluster": 8,
+    "final_Cluster": 55
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -25813,9 +25813,9 @@
       "수학": 13,
       "과학": 13
     },
-    "location_Cluster": 19,
-    "sub_Cluster": 0,
-    "final_Cluster": 54
+    "location_Cluster": 0,
+    "sub_Cluster": 4,
+    "final_Cluster": 35
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -25895,9 +25895,9 @@
       "기술·가정/제2외국어/한문/교양": 6,
       "영어": 8
     },
-    "location_Cluster": 16,
-    "sub_Cluster": 2,
-    "final_Cluster": 43
+    "location_Cluster": 8,
+    "sub_Cluster": 7,
+    "final_Cluster": 21
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -25979,9 +25979,9 @@
       "영어": 10,
       "수학": 9
     },
-    "location_Cluster": 20,
-    "sub_Cluster": 2,
-    "final_Cluster": 51
+    "location_Cluster": 18,
+    "sub_Cluster": 8,
+    "final_Cluster": 57
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -26064,9 +26064,9 @@
       "체육": 4,
       "예술": 6
     },
-    "location_Cluster": 28,
-    "sub_Cluster": 2,
-    "final_Cluster": 60
+    "location_Cluster": 2,
+    "sub_Cluster": 8,
+    "final_Cluster": 38
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -26156,8 +26156,8 @@
       "기술·가정/제2외국어/한문/교양": 3,
       "영어": 6
     },
-    "location_Cluster": 7,
-    "sub_Cluster": 4,
+    "location_Cluster": 14,
+    "sub_Cluster": 0,
     "final_Cluster": 25
   },
   {
@@ -26250,9 +26250,9 @@
       "과학": 8,
       "체육": 2
     },
-    "location_Cluster": 15,
-    "sub_Cluster": 4,
-    "final_Cluster": 3
+    "location_Cluster": 17,
+    "sub_Cluster": 7,
+    "final_Cluster": 5
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -26319,9 +26319,9 @@
       "국어": 3,
       "예술": 1
     },
-    "location_Cluster": 15,
-    "sub_Cluster": 3,
-    "final_Cluster": 3
+    "location_Cluster": 17,
+    "sub_Cluster": 2,
+    "final_Cluster": 4
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -26391,9 +26391,9 @@
       "기술·가정/제2외국어/한문/교양": 4,
       "예술": 3
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 0,
-    "final_Cluster": 11
+    "location_Cluster": 15,
+    "sub_Cluster": 8,
+    "final_Cluster": 14
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -26508,9 +26508,9 @@
       "보건·복지": 5,
       "체육": 2
     },
-    "location_Cluster": 8,
-    "sub_Cluster": 3,
-    "final_Cluster": 11
+    "location_Cluster": 15,
+    "sub_Cluster": 2,
+    "final_Cluster": 12
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -26608,9 +26608,9 @@
       "영어": 7,
       "과학": 7
     },
-    "location_Cluster": 14,
+    "location_Cluster": 10,
     "sub_Cluster": 0,
-    "final_Cluster": 57
+    "final_Cluster": 40
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -26691,9 +26691,9 @@
       "선택": 2,
       "수학": 7
     },
-    "location_Cluster": 28,
-    "sub_Cluster": 2,
-    "final_Cluster": 60
+    "location_Cluster": 2,
+    "sub_Cluster": 8,
+    "final_Cluster": 38
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -26805,9 +26805,9 @@
       "정보·통신": 1,
       "과학": 1
     },
-    "location_Cluster": 0,
-    "sub_Cluster": 1,
-    "final_Cluster": 32
+    "location_Cluster": 18,
+    "sub_Cluster": 3,
+    "final_Cluster": 56
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -26891,9 +26891,9 @@
       "한국사": 2,
       "영어": 8
     },
-    "location_Cluster": 0,
+    "location_Cluster": 18,
     "sub_Cluster": 0,
-    "final_Cluster": 32
+    "final_Cluster": 56
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -26966,9 +26966,9 @@
       "예술": 5,
       "기술·가정/제2외국어/한문/교양": 4
     },
-    "location_Cluster": 6,
-    "sub_Cluster": 0,
-    "final_Cluster": 14
+    "location_Cluster": 13,
+    "sub_Cluster": 8,
+    "final_Cluster": 16
   },
   {
     "ATPT_OFCDC_SC_CODE": "B10",
@@ -27060,8 +27060,8 @@
       "기술·가정/제2외국어/한문/교양": 9,
       "사회(역사/도덕포함)": 6
     },
-    "location_Cluster": 0,
-    "sub_Cluster": 0,
-    "final_Cluster": 32
+    "location_Cluster": 18,
+    "sub_Cluster": 8,
+    "final_Cluster": 55
   }
 ]

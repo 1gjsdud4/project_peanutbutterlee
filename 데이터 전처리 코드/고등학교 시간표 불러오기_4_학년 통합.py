@@ -1,6 +1,6 @@
 import json
 
-json_file_path = "데이터/2022년도_2학기_학교별 개설 교과목_clean_위치.json"
+json_file_path = "데이터/2022년도_1학기_학교별 개설 교과목_clean_위치.json"
 
 with open(json_file_path, "r", encoding="utf-8") as json_file:
     json_data = json.load(json_file)
@@ -36,7 +36,7 @@ for item in json_data:
 merged_data_list = list(merged_data.values())
 
 # JSON 파일로 저장
-output_file_path = "데이터/2022년도_2학기_학교별 개설 교과목_clean_위치_학년통합.json"
+output_file_path = "데이터/2022년도_1학기_학교별 개설 교과목_clean_위치_학년통합.json"
 with open(output_file_path, "w", encoding="utf-8") as json_file:
     json.dump(merged_data_list, json_file, ensure_ascii=False, indent=2)
 

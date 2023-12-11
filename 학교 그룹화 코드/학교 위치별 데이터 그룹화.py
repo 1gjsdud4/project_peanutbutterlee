@@ -18,7 +18,7 @@ locations = df[["Latitude", "Longitude"]]
 
 # K-평균 모델 생성 (예시로 30개의 그룹으로 나눔)
 print("Step 3: Creating KMeans model")
-kmeans = KMeans(n_clusters=30)
+kmeans = KMeans(n_clusters=20)
 df["location_Cluster"] = kmeans.fit_predict(locations)
 
 # 클러스터링 평가 (실루엣 지표)

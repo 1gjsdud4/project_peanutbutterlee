@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # JSON 파일로부터 학교 데이터 읽어오기
-json_file_path = "데이터/2022년도_2학기_학교별 개설 교과목_clean.json"
+json_file_path = "데이터/2022년도_1학기_학교별 개설 교과목_clean.json"
 with open(json_file_path, "r", encoding="utf-8") as json_file:
     school_data = json.load(json_file)
 
@@ -37,7 +37,7 @@ for school in school_data:
     })
 
 # JSON 파일로 저장
-output_json_path = "데이터/2022년도_2학기_학교별 개설 교과목_clean_위치.json"
+output_json_path = "데이터/2022년도_1학기_학교별 개설 교과목_clean_위치.json"
 with open(output_json_path, "w", encoding="utf-8") as output_json_file:
     json.dump(school_data, output_json_file, ensure_ascii=False, indent=4)
 

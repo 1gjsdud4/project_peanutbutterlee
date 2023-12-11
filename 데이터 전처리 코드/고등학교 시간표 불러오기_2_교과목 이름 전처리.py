@@ -1,7 +1,7 @@
 import json
 import re
 
-json_file_path = "데이터/2022년도_2학기_학교별 개설 교과목.json"
+json_file_path = "데이터/2022년도_1학기_학교별 개설 교과목.json"
 
 with open(json_file_path, "r", encoding="utf-8") as json_file:
     json_data = json.load(json_file)
@@ -47,7 +47,7 @@ for item in json_data:
 
 # 딕셔너리를 리스트로 변환하여 수정된 데이터를 JSON 파일로 저장
 cleaned_data = list(cleaned_data_dict.values())
-output_file_path = "데이터/2022년도_2학기_학교별 개설 교과목_clean.json"
+output_file_path = "데이터/2022년도_1학기_학교별 개설 교과목_clean.json"
 with open(output_file_path, "w", encoding="utf-8") as json_file:
     json.dump(cleaned_data, json_file, ensure_ascii=False, indent=2)
 

@@ -42,6 +42,6 @@ def visualize_clusters_with_lines(schools):
     plt.show()
 
 # 실행 코드
-json_file_path = '데이터/최종_결과.json'  # 실제 파일 경로로 변경
+json_file_path = '데이터/클러스터일 최종_결과.json'  # 실제 파일 경로로 변경
 schools_data = create_school_data_from_json(json_file_path)
 visualize_clusters_with_lines(schools_data)

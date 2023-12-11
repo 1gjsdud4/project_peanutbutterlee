@@ -127,7 +127,7 @@ def calculate_average_distance(groups):
     return average_distance
 
 # 실행 코드
-file_path = '데이터/최종클러스터링_결과.json'
+file_path = '데이터/위치_유형_클러스터링_결과.json'
 max_size = 5
 min_sort = 3
 retry_count = 200
@@ -159,8 +159,8 @@ def save_to_json(data, result_file_path):
         json.dump(data, result_file, ensure_ascii=False, indent=2)
 
 # 실행 코드
-json_file_path = '데이터/최종클러스터링_결과.json'
-result_file_path = '데이터/최종_결과.json'
+json_file_path = '데이터/위치_유형_클러스터링_결과.json'
+result_file_path = '데이터/클러스터일 최종_결과.json'
 
 # 기존 JSON 파일의 내용 읽기
 with open(json_file_path, 'r', encoding='utf-8') as file:

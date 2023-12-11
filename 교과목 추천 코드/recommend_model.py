@@ -125,7 +125,7 @@ def generate_data():
 
     return all_jobs, all_majors, all_subjects, indexed_data, indexed_major_to_subjects, job_to_index, major_to_index, subject_to_index
 
-def initialize_model(num_jobs, num_majors, num_subjects, embedding_dim):
+def initialize_model(num_jobs, num_majors, num_subjects, embedding_dim, learning_rate):
     # 임베딩 크기가 너무 작거나 크지 않도록 적절한 값을 선택
     embedding_dim = min(embedding_dim, min(num_jobs, num_majors, num_subjects))
     
@@ -148,7 +148,8 @@ def create_training_data(indexed_data, all_jobs, all_majors, all_subjects):
             random_major = np.random.randint(len(all_majors))
             random_subject = np.random.randint(len(all_subjects))
 
-            if (random_job, random_major, random_subject, 0) not in positive_pairs:
+            # 추가: 만약 부정적인 예시가 이미 긍정적인 샘플에 있다면 추가하지 않음
+            if (random_job, random_major, random_subject, 1) not in positive_pairs:
                 negative_pairs.append((random_job, random_major, random_subject, 0))
                 break
 
@@ -158,17 +159,16 @@ def create_training_data(indexed_data, all_jobs, all_majors, all_subjects):
             random_major = np.random.randint(len(all_majors))
             random_subject = np.random.randint(len(all_subjects))
 
-            if (random_job, random_major, random_subject, 0) not in positive_pairs:
+            # 추가: 만약 부정적인 예시가 이미 긍정적인 샘플에 있다면 추가하지 않음
+            if (random_job, random_major, random_subject, 1) not in positive_pairs:
                 negative_pairs.append((random_job, random_major, random_subject, 0))
                 break  
 
     print('데이터 생성 완료')
     return positive_pairs, negative_pairs
 
-
-def systematic_sampling(positive_pairs, negative_pairs, test_size=0.2, random_state=42):
+def systematic_sampling(positive_pairs, negative_pairs, test_size=0., random_state=42):
     # 체계적 표본 추출을 위한 간격 계산
-
     data = positive_pairs + negative_pairs
 
     train_data, eval_data = train_test_split(data, test_size=test_size, random_state=random_state)
@@ -288,16 +288,16 @@ def train_model_with_validation(model, optimizer, loss_function, training_data, 
 
 # 하이퍼파라미터 설정
 embedding_dim = 100
-learning_rate = 0.0001
-num_epochs = 15
+learning_rate = 0.001
+num_epochs = 20
 
 
 # Generate data
 all_jobs, all_majors, all_subjects, indexed_data, indexed_major_to_subjects, job_to_index, major_to_index, subject_to_index = generate_data()
-
+'''
 
 # Model initialization
-model, optimizer, loss_function = initialize_model(len(all_jobs), len(all_majors), len(all_subjects), embedding_dim)
+model, optimizer, loss_function = initialize_model(len(all_jobs), len(all_majors), len(all_subjects), embedding_dim,learning_rate)
 
 pos, neg = create_training_data(indexed_data, all_jobs, all_majors, all_subjects)
 train_data, eval_data = systematic_sampling(pos,neg)
@@ -306,15 +306,16 @@ train_data, eval_data = systematic_sampling(pos,neg)
 train_model_with_validation(model, optimizer, loss_function, train_data, eval_data,num_epochs)
 
 # Save the trained model
-model.save_model('recommendation_model.pth')
-
+model.save_model('recommendation_model_100_001_100.pth')
+'''
 loaded_model = RecommendationModel(len(all_jobs), len(all_majors), len(all_subjects), embedding_dim = min(embedding_dim, min(len(all_jobs), len(all_majors), len(all_subjects))))
 loaded_model.load_model('recommendation_model_epoch_7.pth')
+
 
 ################################################################################################################################3
 # 평가 #
 
-evaluate_model(loaded_model, eval_data)
+#evaluate_model(loaded_model, eval_data)
 
 
 
@@ -563,7 +564,7 @@ student_school_code = "7010057"
 # 교과목 추천 함수 호출
 all_subjects_same_cluster = subjects_of_same_cluster(student_school_code, schools_data)
 
-desired_jobs = ["광고 및 홍보전문가","조향사","광고기획자"]
+desired_jobs = ["경찰관"]
 final_recommendations = get_final_recommendations(desired_jobs, loaded_model, all_jobs, all_subjects, job_to_index)
 final_recommendations_base_school = [] 
 for subject in final_recommendations:
