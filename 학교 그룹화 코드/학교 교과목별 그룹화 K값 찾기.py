@@ -10,6 +10,10 @@ data = pd.read_csv('데이터/결과데이터.csv', encoding='utf-8')
 # '학교' 열을 index로 설정
 data.set_index('학교', inplace=True)
 
+# 주성분 분석 (PCA)을 사용하여 차원을 95로 축소
+pca = PCA(n_components=95)
+data_pca = pd.DataFrame(pca.fit_transform(data), index=data.index)
+
 # K-means 클러스터링 수행
 k_values = range(2, 20)  # Try different numbers of clusters
 inertia_values = []
@@ -17,10 +21,10 @@ silhouette_scores = []
 
 for k in k_values:
     kmeans = KMeans(n_clusters=k)
-    clusters = kmeans.fit_predict(data)
+    clusters = kmeans.fit_predict(data_pca)
     
     inertia_values.append(kmeans.inertia_)
-    silhouette_scores.append(silhouette_score(data, clusters))
+    silhouette_scores.append(silhouette_score(data_pca, clusters))
 
 # Plot elbow method and silhouette score
 plt.figure(figsize=(12, 6))
@@ -53,20 +57,18 @@ optimal_k = optimal_k_elbow if optimal_k_silhouette <= 1 else optimal_k_silhouet
 
 # K-means clustering with the optimal number of clusters
 kmeans_optimal = KMeans(n_clusters=optimal_k)
-clusters_optimal = kmeans_optimal.fit_predict(data)
+clusters_optimal = kmeans_optimal.fit_predict(data_pca)
 
 # Add cluster labels to the dataframe
 data['Cluster'] = clusters_optimal
 
 # Visualize clusters using PCA (2D plot)
-pca = PCA(n_components=2)
-data_pca = pd.DataFrame(pca.fit_transform(data.drop('Cluster', axis=1)), columns=['PC1', 'PC2'])
 data_pca['Cluster'] = clusters_optimal
 
 plt.figure(figsize=(12, 8))
 for i in range(optimal_k):
     cluster_data = data_pca[data_pca['Cluster'] == i]
-    plt.scatter(cluster_data['PC1'], cluster_data['PC2'], label=f'Cluster {i + 1}')
+    plt.scatter(cluster_data[0], cluster_data[1], label=f'Cluster {i + 1}')
 
 plt.title('K-means Clustering Results (2D PCA) - Optimal K')
 plt.xlabel('Principal Component 1')

@@ -110,6 +110,7 @@ def reassign_school_to_group(affected_group, all_groups, min_cluster_count):
             affected_group.remove(school)
             print(f"{school['name']} 학교가 그룹 재배치되었습니다.")
 
+
 def calculate_distance(coord1, coord2):
     return geodesic(coord1, coord2).kilometers
 

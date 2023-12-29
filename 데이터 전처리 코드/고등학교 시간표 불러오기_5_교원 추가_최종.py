@@ -27,9 +27,9 @@ def merge_teachers_and_subjects(teachers_data, subjects_data):
                 "ATPT_OFCDC_SC_NM": subject_info.get("ATPT_OFCDC_SC_NM", ""),
                 "SD_SCHUL_CODE": subject_info.get("SD_SCHUL_CODE", ""),
                 "SCHUL_NM": subject_info.get("SCHUL_NM", ""),
-                "AY": subject_info.get("AY", ""),
-                "Latitude": subject_info.get("Latitude", ""),
-                "Longitude": subject_info.get("Longitude", ""),
+                "AY": subject_info.get("AY_1", ""),
+                "Latitude": subject_info.get("Latitude_1", ""),
+                "Longitude": subject_info.get("Longitude_1", ""),
                 "고등학교구분명": subject_info.get("고등학교구분명", ""),
                 "all_SUBJECT": subject_info.get("all_SUBJECT", {}),
                 "교원": teachers_data[school_name]["교원"]  # 교원 데이터를 추가

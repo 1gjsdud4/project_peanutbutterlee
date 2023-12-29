@@ -9,6 +9,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 from tqdm import tqdm
 import random
 import matplotlib.pyplot as plt
+from torch.optim.lr_scheduler import StepLR
 
 class RecommendationModel(nn.Module):
     def __init__(self, num_jobs, num_majors, num_subjects, embedding_dim):
@@ -131,7 +132,8 @@ def initialize_model(num_jobs, num_majors, num_subjects, embedding_dim, learning
     
     model = RecommendationModel(num_jobs, num_majors, num_subjects, embedding_dim)
     optimizer = optim.Adam(model.parameters(), lr=learning_rate)
-    loss_function = nn.BCEWithLogitsLoss()
+    loss_function = nn.BCEWithLogitsLoss()   
+    
     return model, optimizer, loss_function
 
 def create_training_data(indexed_data, all_jobs, all_majors, all_subjects):
@@ -141,7 +143,7 @@ def create_training_data(indexed_data, all_jobs, all_majors, all_subjects):
         positive_pairs.append((job_index, major_index, subject_index, 1))
 
     negative_pairs = []
-
+    '''
     for _ in range(len(positive_pairs)):
         while True:
             random_job = np.random.randint(len(all_jobs))
@@ -152,22 +154,25 @@ def create_training_data(indexed_data, all_jobs, all_majors, all_subjects):
             if (random_job, random_major, random_subject, 1) not in positive_pairs:
                 negative_pairs.append((random_job, random_major, random_subject, 0))
                 break
-
-    for _ in range(len(positive_pairs)):
+    '''
+    for _ in range(len(positive_pairs)+len(negative_pairs)):
         while True:
             random_job = np.random.randint(len(all_jobs))
             random_major = np.random.randint(len(all_majors))
             random_subject = np.random.randint(len(all_subjects))
 
-            # 추가: 만약 부정적인 예시가 이미 긍정적인 샘플에 있다면 추가하지 않음
-            if (random_job, random_major, random_subject, 1) not in positive_pairs:
-                negative_pairs.append((random_job, random_major, random_subject, 0))
+            if (random_job, random_major, random_subject, 1) in positive_pairs:
+                positive_pairs.append((random_job, random_major, random_subject, 1))
                 break  
+            else:
+                negative_pairs.append((random_job, random_major, random_subject, 0))
+                break
 
     print('데이터 생성 완료')
+    print(len(positive_pairs),len(negative_pairs))
     return positive_pairs, negative_pairs
 
-def systematic_sampling(positive_pairs, negative_pairs, test_size=0., random_state=42):
+def systematic_sampling(positive_pairs, negative_pairs, test_size=0.2, random_state=42):
     # 체계적 표본 추출을 위한 간격 계산
     data = positive_pairs + negative_pairs
 
@@ -262,7 +267,7 @@ def train_model_with_validation(model, optimizer, loss_function, training_data, 
         print(f'Epoch {epoch + 1}/{num_epochs}, Eval Accuracy: {eval_accuracy * 100:.2f}%')
 
         # 모델 저장 (필요시)
-        model.save_model(f'recommendation_model_epoch_{epoch + 1}.pth')
+        model.save_model(f'모델 학습/recommendation_model_epoch_{epoch + 1}.pth')
 
     # 학습 과정 시각화
     plt.figure(figsize=(12, 5))
@@ -283,19 +288,123 @@ def train_model_with_validation(model, optimizer, loss_function, training_data, 
     plt.tight_layout()
     plt.show()
 
+def train_model_with_validation_and_scheduler(model, optimizer, loss_function, training_data, eval_data, num_epochs, scheduler_step_size= 10, scheduler_gamma=0.1, patience=10):
+    train_losses = []
+    train_accuracies = []
+    eval_accuracies = []
+
+    # 스케줄러 초기화 (StepLR)
+    scheduler = StepLR(optimizer, step_size=scheduler_step_size, gamma=scheduler_gamma)
+
+    # 초기화
+    best_model_state = None
+    best_eval_accuracy = 0.0
+    current_patience = patience
+
+    # 데이터 로더 정의
+    train_loader = torch.utils.data.DataLoader(training_data, batch_size=1, shuffle=True)
+    eval_loader = torch.utils.data.DataLoader(eval_data, batch_size=1, shuffle=False)
+
+    # 학습 및 검증 과정
+    for epoch in range(num_epochs):
+        total_loss = 0
+        correct_predictions = 0
+        total_samples = len(training_data)
+
+        tqdm_data = tqdm(enumerate(train_loader), total=len(train_loader), desc=f'Epoch {epoch + 1}/{num_epochs}')
+
+        for batch_idx, batch in tqdm_data:
+            job_index, major_index, subject_index, label = batch
+            job_index = torch.LongTensor([job_index])
+            major_index = torch.LongTensor([major_index])
+            subject_index = torch.LongTensor([subject_index])
+            label = torch.FloatTensor([label])
+
+            optimizer.zero_grad()
+            output = model(job_index, major_index, subject_index)
+
+            label = label.view_as(output)
+
+            loss = loss_function(output, label)
+            loss.backward()
+            optimizer.step()
+
+            total_loss += loss.item()
+
+            predicted_labels = (output >= 0.5).float()
+            correct_predictions += (predicted_labels == label).sum().item()
+
+            accuracy = correct_predictions / (batch_idx + 1) * 100
+            tqdm_data.set_postfix(loss=loss.item(), accuracy=f'{accuracy:.2f}%')
+
+        average_loss = total_loss / total_samples
+        accuracy = correct_predictions / total_samples
+        train_losses.append(average_loss)
+        train_accuracies.append(accuracy)
+        tqdm_data.close()
+        print(f'Epoch {epoch + 1}/{num_epochs}, Train Loss: {average_loss}, Train Accuracy: {accuracy * 100:.2f}%')
+
+        # 스케줄러 업데이트
+        scheduler.step()
+
+        # 검증 데이터 평가
+        eval_accuracy = evaluate_model(model, eval_loader)
+        eval_accuracies.append(eval_accuracy)
+        print(f'Epoch {epoch + 1}/{num_epochs}, Eval Accuracy: {eval_accuracy * 100:.2f}%')
+
+        # 성능 향상 시 모델 저장 및 초기화
+        if eval_accuracy > best_eval_accuracy:
+            best_eval_accuracy = eval_accuracy
+            best_model_state = model.state_dict()
+            current_patience = patience  # 초기화
+
+        # 성능 향상이 없는 경우 patience 감소
+        else:
+            current_patience -= 1
+
+            # patience가 0이 되면 조기 종료
+            if current_patience == 0:
+                print("조기 종료: 검증 데이터 성능 향상이 없습니다.")
+                break
+
+        tqdm_data.close()
+
+    # 최적 모델로 복원
+    model.load_state_dict(best_model_state)
+
+    # 학습 과정 시각화
+    plt.figure(figsize=(12, 5))
+
+    plt.subplot(1, 2, 1)
+    plt.plot(range(1, epoch + 2), train_losses, label='Train Loss')
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.legend()
+
+    plt.subplot(1, 2, 2)
+    plt.plot(range(1, epoch + 2), train_accuracies, label='Train Accuracy')
+    plt.plot(range(1, epoch + 2), eval_accuracies, label='Eval Accuracy')
+    plt.xlabel('Epoch')
+    plt.ylabel('Accuracy')
+    plt.legend()
+
+    plt.tight_layout()
+    plt.show()
+
+    return model
 
 ################################################################################################################################
 
 # 하이퍼파라미터 설정
 embedding_dim = 100
-learning_rate = 0.001
-num_epochs = 20
+learning_rate = 0.0005
+num_epochs = 100
 
 
 # Generate data
 all_jobs, all_majors, all_subjects, indexed_data, indexed_major_to_subjects, job_to_index, major_to_index, subject_to_index = generate_data()
-'''
 
+'''
 # Model initialization
 model, optimizer, loss_function = initialize_model(len(all_jobs), len(all_majors), len(all_subjects), embedding_dim,learning_rate)
 
@@ -303,19 +412,19 @@ pos, neg = create_training_data(indexed_data, all_jobs, all_majors, all_subjects
 train_data, eval_data = systematic_sampling(pos,neg)
 
 # Model training
-train_model_with_validation(model, optimizer, loss_function, train_data, eval_data,num_epochs)
+train_model_with_validation_and_scheduler(model, optimizer, loss_function, train_data, eval_data,num_epochs)
 
 # Save the trained model
-model.save_model('recommendation_model_100_001_100.pth')
+model.save_model('모델 학습/recommendation_model_200_001_100.pth')
 '''
 loaded_model = RecommendationModel(len(all_jobs), len(all_majors), len(all_subjects), embedding_dim = min(embedding_dim, min(len(all_jobs), len(all_majors), len(all_subjects))))
-loaded_model.load_model('recommendation_model_epoch_7.pth')
+loaded_model.load_model('모델 학습/recommendation_model_200_001_100.pth')
 
 
 ################################################################################################################################3
 # 평가 #
 
-#evaluate_model(loaded_model, eval_data)
+# evaluate_model(loaded_model, eval_data)
 
 
 
@@ -333,7 +442,7 @@ def get_final_recommendations(desired_jobs, loaded_model, all_jobs, all_subjects
             example_job_embedding = loaded_model.job_embedding(torch.LongTensor([example_job_index]))
             all_subject_embeddings = loaded_model.subject_embedding(torch.LongTensor(range(len(all_subjects))))
             similarities = F.cosine_similarity(example_job_embedding, all_subject_embeddings)
-            num_recommendations = 20
+            num_recommendations = 40
             top_recommendations_indices = similarities.argsort(descending=True)[:num_recommendations]
             top_recommendations_subjects = [all_subjects[idx] for idx in top_recommendations_indices]
 
@@ -377,7 +486,7 @@ def get_similar_jobs(target_job, loaded_model, all_jobs, job_to_index):
     return similar_jobs
 
 # 예시: 함수 사용
-target_job = "조향사"
+target_job = "국회의원"
 similar_jobs = get_similar_jobs(target_job, loaded_model, all_jobs, job_to_index)
 
 # 유사한 직업 출력
@@ -446,7 +555,7 @@ def get_final_subject_recommendations(desired_majors, loaded_model, all_subjects
     return final_subject_recommendations
 
 # 예시: 함수 사용
-desired_majors = ["연극영화과"]
+desired_majors = ["교육학과"]
 final_subject_recommendations = get_final_subject_recommendations(desired_majors, loaded_model, all_subjects, subject_to_index, indexed_major_to_subjects)
 
 # 최종 교과목 출력
@@ -476,7 +585,7 @@ def get_major_recommendations_for_subjects(desired_subjects, loaded_model, all_m
         return []
 
 # 예시: 함수 사용
-desired_subjects = ["고급 화학 및 고급 생명과학"]
+desired_subjects = ["윤리와 사상","교육학"]
 recommended_majors = get_major_recommendations_for_subjects(desired_subjects, loaded_model, all_majors, major_to_index, subject_to_index)
 
 # 추천된 학과 출력
@@ -554,7 +663,7 @@ def subjects_of_same_cluster(student_school_code, schools_data):
 
     return list(all_subjects_same_cluster)
 
-school_path = '데이터/최종_결과.json'
+school_path = '데이터/클러스터일 최종_결과.json'
 with open(school_path, 'r', encoding='utf-8') as json_file:
     schools_data = json.load(json_file)
 
@@ -564,7 +673,7 @@ student_school_code = "7010057"
 # 교과목 추천 함수 호출
 all_subjects_same_cluster = subjects_of_same_cluster(student_school_code, schools_data)
 
-desired_jobs = ["경찰관"]
+desired_jobs = ["국회의원"]
 final_recommendations = get_final_recommendations(desired_jobs, loaded_model, all_jobs, all_subjects, job_to_index)
 final_recommendations_base_school = [] 
 for subject in final_recommendations:
